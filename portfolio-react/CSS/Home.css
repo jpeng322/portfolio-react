@@ -1,0 +1,36 @@
+.row {
+    border: 1px solid red;
+}
+
+.home {
+    border: 1px solid red;
+    height: 90vh
+}
+
+.home-col {
+    border: 1px solid blue;
+}
+
+.home-row:nth-child(3) {
+ margin-bottom: 20vh;
+}
+
+.heading-primary {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.heading-subtext {
+    font-size: 1.2rem
+}
+
+.heading-button {
+    background-color: aqua;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    width: 16rem;
+    /* border-radius: ; */
+}
