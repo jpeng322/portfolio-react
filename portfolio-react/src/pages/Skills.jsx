@@ -3,10 +3,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 //css
-import "../../CSS/Skills.css"
+import "../CSS/Skills.css"
 const Skills = () => {
     return (
-        <Container fluid className="skills ">
+        <Container fluid className="skills-section">
             <Row className='skills-head d-flex flex-column align-items-center justify-content-center'>
                 {/* <div className="skills-header text-center">About me</div>
                 <div className="skills-subtext text-center">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</div> */}
@@ -14,7 +14,7 @@ const Skills = () => {
                 <Col className="skills-subtext text-center pt-0 p-4" xs={12} md={6}>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</Col>
             </Row>
             <Row className='skills-information d-flex justify-content-center' >
-                <Col className="border border-primary justify-content-center d-flex flex-column flex-lg-row p-0" md={10}>
+                <Col className="border border-primary justify-content-center d-flex flex-column flex-lg-row p-0" md={9}>
                     <Col className="about-description p-5 d-flex flex-column align-items-center align-items-lg-start gap-3 border border-success" xs={12} md={12} lg={6}>
                         <Col className="experience-header text-center text-lg-start" xs={12}>
                             Skills & Experience

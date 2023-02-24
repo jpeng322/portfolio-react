@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './components/Navbar';
 import Home from './pages/Home';
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <NavbarComp />
       <Home />
       <Skills />
+      <Projects />
     </div>
   )
 }

@@ -1,0 +1,26 @@
+.projects-section {
+    /* height: 100vh; */
+    border: 1px solid red;
+}
+
+.projects-header {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.project-container {
+    
+}
+.project-container-row > .col-4 {
+    border: 1px solid black;
+}
+.project-image {
+    /* width: 500px; */
+    object-fit: cover;
+    /* width: 400px; */
+    height: 300px;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
