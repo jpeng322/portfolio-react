@@ -11,10 +11,10 @@ function NavbarComp() {
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className='flex-grow-0'>
                     <Nav>
-                        <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">About</Nav.Link>
-                        <Nav.Link href="#action3">Projects</Nav.Link>
-                        <Nav.Link href="#action4">Contact</Nav.Link>
+                        <Nav.Link className="pe-4 ps-4" href="#action1">Home</Nav.Link>
+                        <Nav.Link className="pe-4 ps-4" href="#action2">About</Nav.Link>
+                        <Nav.Link className="pe-4 ps-4" href="#action3">Projects</Nav.Link>
+                        <Nav.Link className="pe-4 ps-4" href="#action4">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

@@ -2,3 +2,12 @@
     border: 1px solid red;
     height: 10vh;
 }
+
+.nav-link {
+    text-transform: uppercase;
+    /* padding: 0rem 2rem !important; */
+    /* border: 1px solid red; */
+    font-weight: 600;
+    color: #333;
+}
+

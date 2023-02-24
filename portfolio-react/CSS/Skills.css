@@ -1,0 +1,80 @@
+.skills {
+    height: 100vh;
+    background: #e4e1e1;
+}
+
+.skills-head>* {
+    /* border: 1px solid blue; */
+}
+
+.skills-head {
+    /* height: 20vh; */
+}
+
+.skills-header {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/* .about-description, .languages {
+    height: 80vh;
+    border: 1px solid blue;
+} */
+
+
+.experience-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.exp-text {
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 0px;
+}
+
+.languages,
+.frameworks,
+.tools {
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    /* text-transform: uppercase; */
+}
+
+.icons>.row {
+    /* border: 1px solid black; */
+    flex: 0;
+    justify-content: center;
+}
+
+
+.icons>.row>.row {
+    border: 1px solid blue;
+}
+
+.icons {}
+
+.skills-information {
+    /* border: 1px solid black; */
+}
+
+.icon-container {
+    border: 1px solid black;
+    border-radius: .5rem;
+    /* width: 50px;
+    height: 100px; */
+    width: 100px;
+    height: 100px;
+    /* flex: 0 */
+    padding: 1rem;
+    /* flex: 0 */
+}
+
+.icon-container svg {
+    height: 50px;
+    width: 50px;
+}
