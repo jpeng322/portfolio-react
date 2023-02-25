@@ -47,9 +47,8 @@ const Projects = () => {
 
                         <ProjectImage
                             imageSrc={CatSheet}
-                            description="A fully responsive website that allows users to find information
-                            on numerous cat breeds. Some features of the site include routing to different
-                    pages, pagination of images, and filtering of cat breeds."
+                            description="A responsive website that allows users to find information
+                            on numerous cat breeds."
                             textlanguages=
                             {<>
                                 React
@@ -62,9 +61,8 @@ const Projects = () => {
 
                         <ProjectImage
                             imageSrc={JournalApp}
-                            description="A full-stack CRUD application that allows the user to save daily
-                            notes. Some features include user authentication and data manipulation. Notes can be
-                            created, updated, deleted, and filtered by months or favorites."
+                            description="A full-stack journal application that allows the user to create an account and save daily
+                            notes. "
                             textlanguages=
                             {<>
                                 <div>
@@ -87,7 +85,7 @@ const Projects = () => {
                         <ProjectImage
                             imageSrc={Pokedex}
                             description="Dynamic Pokedex that searches and displays statistics of a specific
-                            pokemon. Error handling was implemented for wrong inputs."
+                            pokemon."
                             textlanguages=
                             {<>
                                 JS
@@ -103,9 +101,8 @@ const Projects = () => {
 
                         <ProjectImage
                             imageSrc={TicTacToe}
-                            description="A two-player Squid-Games-themed Tic-Tac-Toe game created using
-                            Object Oriented Programming. Features include personalized player names, player
-                            marker selection, and player move
+                            description="A two-player Squid Games themed Tic-Tac-Toe game with custom player names, 
+                            marker selection, and move
                             indicators."
                             textlanguages=
                             {<>
@@ -122,10 +119,7 @@ const Projects = () => {
 
                         <ProjectImage
                             imageSrc={EtchSketch}
-                            description="An online rendition of the Etch A Sketch drawing toy.
-                            Users can
-                            select their pen color or rainbow mode, erase using their pen, or fully clear the
-                            board with a press of a button."
+                            description="An online rendition of the Etch A Sketch drawing toy with rainbow, erasure, and color selection modes."
                             textlanguages=
                             {<>
                                 JS

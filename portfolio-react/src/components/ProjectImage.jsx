@@ -29,7 +29,7 @@ const ProjectImage = (props) => {
         //         </div>
         //     </Col>
         // </Col>
-        <Col className="container-transition d-flex justify-content-center m-3 p-0" xs={11} sm={8} md={5} lg={5} xl={3}>
+        <Col className="container-transition d-flex justify-content-center m-3 p-0" xs={11} sm={9} md={5} lg={5} xl={4} xxl={3}>
                             <Image className="image project-image img-fluid" src={props.imageSrc}></Image>
                             <Col className="middle">
                                 <div className="text-header">{props.description}</div>
