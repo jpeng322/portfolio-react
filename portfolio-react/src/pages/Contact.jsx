@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import "../CSS/Contact.css";
 
+import 'animate.css';
 
 //component
 import FormInput from '../components/contactComp/FormInput';

@@ -46,7 +46,7 @@ const Skills = () => {
                         </Col>
                     </Col>
                     <Col className="icons d-flex flex-column justify-content-center align-items-center  border border-success" xs={12} md={12} lg={6} >
-                        <Col className='icons d-flex flex-column justify-content-center  border ' xs={10} sm={8} md={8} lg={10} xxl={6}>
+                        <Col className='row-icon-container icons d-flex flex-column justify-content-center  border ' xs={10} sm={8} md={8} lg={10} xxl={6}>
                             <FirstRowIcons />
                             <SecondRowIcons />
                             <ThirdRowIcons />

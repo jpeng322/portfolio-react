@@ -78,3 +78,21 @@
     height: 50px;
     width: 50px;
 }
+
+.row-icon-container>*:nth-child(2) {
+
+    --animate-delay: .5s;
+
+}
+
+.row-icon-container>*:nth-child(4) {
+    border: 1px solid red;
+    --animate-delay: 1.0s;
+
+}
+
+.row-icon-container>*:nth-child(6) {
+    border: 1px solid green;
+    --animate-delay: 1.5s;
+
+}
