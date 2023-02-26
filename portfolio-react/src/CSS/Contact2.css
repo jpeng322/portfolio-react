@@ -1,0 +1,111 @@
+#contact-section {
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 3rem;
+    align-items: center;
+}
+
+.contact-name {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 2rem
+}
+
+.contact-name>* {
+    flex: 1
+}
+
+#contact-section h2 {
+    font-size: calc(3.5rem + 1.5vw);
+    margin-bottom: 2.5rem;
+    color: var(--header-color);
+    margin: 0;
+}
+
+#contact-section p {
+    font-size: calc(.9rem + .25vw);
+    color: var(--text-color);
+}
+
+
+#contact-section form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* gap: .5rem; */
+    /* justify-self: center; */
+    justify-content: center;
+}
+
+
+#contact-section button {
+    /* margin-left: 20px !important; */
+    padding: 10px 20px !important;
+    /* border-radius: 4px; */
+    background-color: var(--nav-background-color);
+    border: 1px solid var(--nav-hover-color);
+    /* border: none; */
+    color: var(--nav-hover-color);
+    width: 75%;
+    align-self: center;
+    margin-top: 1rem;
+    transition: ease-in-out .3s
+}
+
+#contact-section button:hover {
+    /* transition: .5s; */
+    cursor: pointer;
+    transform: translateY(-1px);
+    /* box-shadow: 0 10px 30px -15px; */
+    text-shadow: 0 0 5px rgb(3, 230, 33);
+    box-shadow: 0 0 5px rgb(3, 230, 33);
+
+}
+
+.form-feedback {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#contact-section .form-control {
+    color: var(--header-color) !important;
+    background-color: #0e0d0d !important;
+    border: none;
+    border-bottom: 1px solid var(--nav-hover-color);
+    border-radius: 0 !important;
+}
+
+.form-control:focus+.form-label {
+    color: none;
+}
+
+
+
+.form-floating>label {
+    color: var(--text-color);
+}
+
+.form-control:focus {
+    /* border-color: none; */
+    border-color: blue;
+    /* box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6); */
+    box-shadow: none;
+}
+
+/* .form-control.is-valid {
+    border-color: none !important;
+}
+
+.was-validated {
+    border-color: black !important;
+} */
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    /* border-color: black !important; */
+}
+
+.was-validated {
+    border: none
+}
