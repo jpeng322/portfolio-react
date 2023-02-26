@@ -18,6 +18,8 @@ import ThirdRowIcons from '../components/skillsComp/ThirdRowIcons';
 //css
 import "../CSS/Skills.css"
 
+
+
 const Skills = () => {
     return (
         <Container fluid className="skills-section">

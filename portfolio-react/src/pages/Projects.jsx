@@ -22,19 +22,6 @@ import ProjectImage from '../components/ProjectImage';
 
 const Projects = () => {
 
-    const [isHover, setIsHover] = useState(false);
-
-    const handleMouseEnter = () => {
-        setIsHover(true);
-    };
-    const handleMouseLeave = () => {
-        setIsHover(false);
-    };
-
-    // const boxStyle = {
-    //    <!-- ... -->
-    // };
-
     return (
         <Container fluid className="projects-section">
             <Row className="d-flex flex-column text-center">
