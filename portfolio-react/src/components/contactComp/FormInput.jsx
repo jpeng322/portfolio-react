@@ -4,8 +4,14 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 
 const FormInput = (props) => {
+
+    // const { inViewport, enterCount, forwardedRef } = props;
+
+    // const animations = inViewport && enterCount === 1 ? "animate__animated animate__fadeIn animate__delay-1s" : ""
+
+
     return (
-        <Row>
+        <Row >
             <Col>
                 <FloatingLabel controlId={props.controlId} label={props.label}>
                     <Form.Control type={props.type} placeholder={props.placeholder} />

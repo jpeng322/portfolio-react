@@ -18,10 +18,6 @@
     letter-spacing: 3px;
 }
 
-/* .about-description, .languages {
-    height: 80vh;
-    border: 1px solid blue;
-} */
 
 
 .experience-header {
@@ -31,7 +27,7 @@
     letter-spacing: 3px;
 }
 
-.exp-text {
+.exp-card {
     border: 1px solid black;
     box-shadow: 1px 1px 1px 0px;
 }
@@ -87,12 +83,21 @@
 
 .row-icon-container>*:nth-child(4) {
     border: 1px solid red;
-    --animate-delay: 1.0s;
+    --animate-delay: .5s;
 
 }
 
-.row-icon-container>*:nth-child(6) {
+.row-icon-container>*:nth-child(6),
+.row-icon-container>*:nth-child(5) {
     border: 1px solid green;
-    --animate-delay: 1.5s;
+    --animate-delay: .5s;
 
+}
+
+.row-icon-container>* {
+    --animate-delay: .5s;
+}
+
+.about-description>* {
+    --animate-delay: .5s;
 }
