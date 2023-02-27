@@ -8,8 +8,15 @@ const Home = () => {
     return (
         <Container fluid id="home-section" className="home-section d-flex flex-column justify-content-center gap-5">
             <Row className='heading-primary home-row d-flex justify-content-center'>
-                <Col className="home-col-container p-0 m-0" xs={12} sm={12} md={9} lg={8} xl={5}>
-                    <Col className="home-col text-center">HI DERE, I'M JACKY PENG</Col>
+                <Col className="home-col-container p-0 m-0" >
+                    <Col className="home-col ">
+                        <div className="top-home-heading">
+                            HI THERE,
+                        </div>
+                        <div className="bottom-home-heading">
+
+                            I'M JACKY PENG
+                        </div></Col>
                 </Col>
             </Row>
             <Row className='home-row d-flex justify-content-center'>

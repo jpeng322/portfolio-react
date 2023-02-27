@@ -12,7 +12,7 @@
 }
 
 .home-col {
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
 
 }
 
@@ -36,14 +36,63 @@
 
 }
 
-.home-col {
+/* .home-col {
     margin: 0 auto;
     overflow: hidden;
-    animation: typing 4s steps(60, end), blink-caret .85s step-end 7;
+    animation: typing 3s steps(80, end), blink-caret .85s step-end 6;
     white-space: nowrap;
     border-right: .15em solid transparent;
 
+} */
+
+/* .home-col {
+    animation: typing 2.2s steps(23), blink .6s step-end infinite;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+} */
+
+
+
+.top-home-heading {
+    /* width: 15em; */
+    /* text-align: center; */
+    display: transparent;
+    animation: typing 2.2s steps(23), blinking .6s step-end 6;
+    border-right: 2px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+    /* border-right: .15em solid transparent */
+    /* font-size: ; */
+
 }
+
+.bottom-home-heading {
+    animation: typing 2.2s steps(23), blinking .6s step-end 6, reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 1.5s forwards;
+    border-right: 2px solid transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    color: black;
+    animation-delay: 2.2s;
+    display: block;
+    visibility: hidden;
+}
+
+/* 
+@keyframes typing-bottom {
+    from {
+        width: 0;
+        opacity: 1;
+    }
+
+    to {
+        width: 100%;
+        visibility: visible;
+        opacity: 1;
+    }
+} */
 
 @keyframes typing {
     from {
@@ -55,17 +104,87 @@
     }
 }
 
-@keyframes blink-caret {
+@keyframes reveal {
+    from {
+        /* transform: translate(0,100%); */
+        opacity: 1;
+    }
 
-    from,
     to {
-        border-color: black
+        /* transform: translate(0,0); */
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+
+@keyframes blinking {
+    0% {
+        border-color: transparent
     }
 
     50% {
-        border-color: transparent;
+        border-color: black
+    }
+
+    100% {
+        border-color: transparent
     }
 }
+
+
+/* xs breakpoint */
+@media all and (min-width: 0px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* sm breakpoint */
+@media all and (min-width: 576px) {
+    .home-col {
+        font-size: 2.5rem;
+    }
+}
+
+/* md breakpoint */
+@media all and (min-width: 768px) {
+    .home-col {
+        font-size: 2.5rem;
+    }
+}
+
+/* lg breakpoint */
+@media all and (min-width: 992px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+/* xl breakpoint */
+@media all and (min-width: 1200px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+);
+
+
+
+/* @keyframes blink {
+    50% { 
+        border-color: transparent; 
+    }
+} */
 
 /* The typing effect */
 /* @keyframes typing {
@@ -80,19 +199,7 @@
 
 /* The typewriter cursor effect */
 
-/* @keyframes blinking {
-    0% {
-        border-color: transparent
-    }
 
-    50% {
-        border-color: black
-    }
-
-    100% {
-        border-color: transparent
-    }
-} */
 
 .home-row:nth-child(3) {
     margin-bottom: 20vh;
