@@ -25,7 +25,7 @@ const ProjectHeaderContainer = (props) => {
     return (
         <Row ref={forwardedRef} className={`project-header-container d-flex flex-column text-center ${animations}`}>
             <Col className="projects-header p-4 ">My recent work</Col>
-            <Col className="projects-header-subtext">Here are a few past design projects I've worked on.</Col>
+            {/* <Col className="projects-header-subtext">Here are a few past design projects I've worked on.</Col> */}
         </Row>
     )
 }
@@ -34,10 +34,10 @@ const ProjectHeaderVP = handleViewport(ProjectHeaderContainer)
 const Projects = () => {
 
     return (
-        <Container fluid id="projects-section" className="projects-section">
+        <Container fluid id="projects-section" className="projects-section d-flex flex-column justify-content-center pt-5 pb-5">
             <ProjectHeaderVP />
             <Row className="d-flex justify-content-center ">
-                <Col className="project-container d-flex border border-success" xs={11} md={12} lg={11} xl={12} xxl={12}>
+                <Col className="project-container d-flex " xs={11} md={12} lg={11} xl={12} xxl={12}>
                     <Row className="project-container-row d-flex justify-content-center ">
 
                         <ProjectImageVP

@@ -23,7 +23,7 @@ const SkillsHeaderContainer = (props) => {
     const animations = inViewport && enterCount === 1 ? "animate__animated animate__fadeIn animate__delay-1s" : ""
 
     return (
-        <Row ref={forwardedRef} className={`skills-head d-flex flex-column align-items-center justify-content-center ${animations}`} >
+        <Row ref={forwardedRef} className={`skills-head d-flex flex-column align-items-center justify-content-center m-0 ${animations}`} >
             <Col className="skills-header text-center p-4" xs={12} md={6}>About me</Col>
             <Col className="skills-subtext text-center pt-0 p-4" xs={12} md={6}>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</Col>
         </Row>
@@ -37,13 +37,13 @@ const SkillsExpVP = handleViewport(SkillsExp)
 const Skills = () => {
 
     return (
-        <Container fluid id="skills-section" className="skills-section">
+        <Container fluid id="skills-section" className="skills-section d-flex flex-column justify-content-center pt-5 pb-5">
             <SkillsHeaderContainerVP />
             <Row className='skills-information d-flex justify-content-center' >
-                <Col className="border border-primary justify-content-center d-flex flex-column flex-lg-row p-0" md={9}>
+                <Col className=" justify-content-center d-flex flex-column flex-xl-row align-items-center ps-5 pe-5 pb-5 gap-5 gap-xl-4 gap-xxl-0" md={9}>
                     <SkillsExpVP />
-                    <Col className="icons d-flex flex-column justify-content-center align-items-center  border border-success" xs={12} md={12} lg={6} >
-                        <Col className='row-icon-container icons d-flex flex-column justify-content-center  border ' xs={10} sm={8} md={8} lg={10} xxl={6}>
+                    <Col className=" icons d-flex flex-column justify-content-center align-items-center p-0" xs={12} md={12} lg={10} xl={6} >
+                        <Col className='row-icon-container icons d-flex flex-column justify-content-center' xs={12} sm={8} md={8} lg={10} xxl={8}>
                             <FirstRowIcons />
                             <SecondRowIcons />
                             <ThirdRowIcons />

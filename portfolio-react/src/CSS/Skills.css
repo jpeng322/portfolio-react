@@ -1,6 +1,6 @@
 .skills-section {
-    /* height: 100vh; */
     background: #e4e1e1;
+    min-height: 100vh;
 }
 
 .skills-head>* {
@@ -12,7 +12,7 @@
 }
 
 .skills-header {
-    font-size: 2.5rem;
+    font-size: calc(2.5rem + .5vw);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 3px;
@@ -21,7 +21,8 @@
 
 
 .experience-header {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: calc(2.25rem + .5vw);
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -82,14 +83,12 @@
 }
 
 .row-icon-container>*:nth-child(4) {
-    border: 1px solid red;
     --animate-delay: .5s;
 
 }
 
 .row-icon-container>*:nth-child(6),
 .row-icon-container>*:nth-child(5) {
-    border: 1px solid green;
     --animate-delay: .5s;
 
 }
@@ -100,6 +99,6 @@
     --animate-delay: .5s;
 }
 
-/* .about-description>* {
-    --animate-delay: .5s;
-} */
+.about-description {
+    letter-spacing: 1px;
+}

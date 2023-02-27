@@ -3,15 +3,18 @@
     --img-background-color: #b5b6b7;
     --img-text-color: #333;
     --img-outline-color: pink;
+
 }
 
 .projects-section {
     /* height: 100vh; */
+    background-color: aliceblue;
     border: 1px solid red;
+    min-height: 104vh;
 }
 
 .projects-header {
-    font-size: 2.5rem;
+    font-size: calc(2.5rem + .5vw);
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 3px;
