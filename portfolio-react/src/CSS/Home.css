@@ -4,21 +4,105 @@
 
 .home-section {
     border: 1px solid red;
-    height: 90vh
+    height: 100vh
+}
+
+.home-col-container {
+    /* border: 1px solid black; */
 }
 
 .home-col {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
+
 }
 
+.home-col-old {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid transparent;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    /* animation:
+        typing 4s steps(30, end),
+        blink-caret .75s step-end; */
+    animation: typing 4s steps(30, end) forwards, blinking 1s step-end 7;
+
+
+
+}
+
+.home-col {
+    margin: 0 auto;
+    overflow: hidden;
+    animation: typing 4s steps(60, end), blink-caret .85s step-end 7;
+    white-space: nowrap;
+    border-right: .15em solid transparent;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: black
+    }
+
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* The typing effect */
+/* @keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%;
+    }
+} */
+
+/* The typewriter cursor effect */
+
+/* @keyframes blinking {
+    0% {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: black
+    }
+
+    100% {
+        border-color: transparent
+    }
+} */
+
 .home-row:nth-child(3) {
- margin-bottom: 20vh;
+    margin-bottom: 20vh;
 }
 
 .heading-primary {
     font-size: 3rem;
     font-weight: 700;
     letter-spacing: 3px;
+    border: 1px solid red;
 }
 
 .heading-subtext {
