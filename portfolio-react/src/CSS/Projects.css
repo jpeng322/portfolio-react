@@ -17,6 +17,10 @@
     letter-spacing: 3px;
 }
 
+.project-header-container {
+    --animate-delay: .5s;
+}
+
 .project-container {}
 
 .project-container-row>.col-4 {

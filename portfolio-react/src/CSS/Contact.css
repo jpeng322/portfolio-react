@@ -6,7 +6,9 @@
 
 .contact-container {
     border: 1px solid black;
+    --animate-delay: .5s;
 }
+
 .contact-section form {
     display: flex;
     flex-direction: column;

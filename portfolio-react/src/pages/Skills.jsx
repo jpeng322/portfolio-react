@@ -16,6 +16,20 @@ import "../CSS/Skills.css"
 import handleViewport from 'react-in-viewport';
 
 
+const SkillsHeaderContainer = (props) => {
+
+    const { inViewport, enterCount, forwardedRef } = props;
+
+    const animations = inViewport && enterCount === 1 ? "animate__animated animate__fadeIn animate__delay-1s" : ""
+
+    return (
+        <Row ref={forwardedRef} className={`skills-head d-flex flex-column align-items-center justify-content-center ${animations}`} >
+            <Col className="skills-header text-center p-4" xs={12} md={6}>About me</Col>
+            <Col className="skills-subtext text-center pt-0 p-4" xs={12} md={6}>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</Col>
+        </Row>
+    )
+}
+const SkillsHeaderContainerVP = handleViewport(SkillsHeaderContainer)
 const SkillsExpVP = handleViewport(SkillsExp)
 
 
@@ -23,11 +37,8 @@ const SkillsExpVP = handleViewport(SkillsExp)
 const Skills = () => {
 
     return (
-        <Container fluid className="skills-section">
-            <Row className='skills-head d-flex flex-column align-items-center justify-content-center'>
-                <Col className="skills-header text-center p-4" xs={12} md={6}>About me</Col>
-                <Col className="skills-subtext text-center pt-0 p-4" xs={12} md={6}>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</Col>
-            </Row>
+        <Container fluid id="skills-section" className="skills-section">
+            <SkillsHeaderContainerVP />
             <Row className='skills-information d-flex justify-content-center' >
                 <Col className="border border-primary justify-content-center d-flex flex-column flex-lg-row p-0" md={9}>
                     <SkillsExpVP />

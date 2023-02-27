@@ -5,11 +5,7 @@ import Form from 'react-bootstrap/Form';
 
 const FormInput = (props) => {
 
-    // const { inViewport, enterCount, forwardedRef } = props;
-
-    // const animations = inViewport && enterCount === 1 ? "animate__animated animate__fadeIn animate__delay-1s" : ""
-
-
+ 
     return (
         <Row >
             <Col>

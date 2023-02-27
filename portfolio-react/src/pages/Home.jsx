@@ -6,7 +6,7 @@ import "../CSS/Home.css";
 
 const Home = () => {
     return (
-        <Container fluid className="home d-flex flex-column justify-content-center gap-5">
+        <Container fluid id="home-section" className="home-section d-flex flex-column justify-content-center gap-5">
             <Row className='heading-primary home-row d-flex justify-content-center'>
                 <Col className="home-col text-center" xs={12} md={6}>HI DERE, I'M JACKY PENG</Col>
             </Row>

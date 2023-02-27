@@ -16,15 +16,26 @@ import EtchSketch from "../images/etchsketch.jpg"
 //components
 import ProjectImage from '../components/ProjectComp/ProjectImage';
 
+const ProjectHeaderContainer = (props) => {
+
+    const { inViewport, enterCount, forwardedRef } = props;
+
+    const animations = inViewport && enterCount === 1 ? "animate__animated animate__fadeIn animate__delay-1s" : ""
+
+    return (
+        <Row ref={forwardedRef} className={`project-header-container d-flex flex-column text-center ${animations}`}>
+            <Col className="projects-header p-4 ">My recent work</Col>
+            <Col className="projects-header-subtext">Here are a few past design projects I've worked on.</Col>
+        </Row>
+    )
+}
 const ProjectImageVP = handleViewport(ProjectImage)
+const ProjectHeaderVP = handleViewport(ProjectHeaderContainer)
 const Projects = () => {
 
     return (
-        <Container fluid className="projects-section">
-            <Row className="d-flex flex-column text-center">
-                <Col className="projects-header p-4 ">My recent work</Col>
-                <Col className="projects-header-subtext">Here are a few past design projects I've worked on.</Col>
-            </Row>
+        <Container fluid id="projects-section" className="projects-section">
+            <ProjectHeaderVP />
             <Row className="d-flex justify-content-center ">
                 <Col className="project-container d-flex border border-success" xs={11} md={12} lg={11} xl={12} xxl={12}>
                     <Row className="project-container-row d-flex justify-content-center ">

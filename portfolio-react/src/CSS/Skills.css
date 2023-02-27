@@ -94,10 +94,12 @@
 
 }
 
-.row-icon-container>* {
+.row-icon-container>*,
+.about-description>*,
+.skills-header {
     --animate-delay: .5s;
 }
 
-.about-description>* {
+/* .about-description>* {
     --animate-delay: .5s;
-}
+} */
