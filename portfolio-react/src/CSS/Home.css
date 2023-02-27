@@ -59,7 +59,7 @@
     /* width: 15em; */
     /* text-align: center; */
     display: transparent;
-    animation: typing 2.2s steps(23), blinking .6s step-end 6;
+    animation: typing 1.8s steps(23), blinking .6s step-end 3;
     border-right: 2px solid transparent;
     white-space: nowrap;
     overflow: hidden;
@@ -70,29 +70,15 @@
 }
 
 .bottom-home-heading {
-    animation: typing 2.2s steps(23), blinking .6s step-end 6, reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 1.5s forwards;
+    animation: typing 1.8s steps(23), blinking .6s step-end 5, reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 1.5s forwards;
     border-right: 2px solid transparent;
     white-space: nowrap;
     overflow: hidden;
     color: black;
-    animation-delay: 2.2s;
+    animation-delay: 1.8s;
     display: block;
     visibility: hidden;
 }
-
-/* 
-@keyframes typing-bottom {
-    from {
-        width: 0;
-        opacity: 1;
-    }
-
-    to {
-        width: 100%;
-        visibility: visible;
-        opacity: 1;
-    }
-} */
 
 @keyframes typing {
     from {
@@ -136,20 +122,38 @@
 
 /* xs breakpoint */
 @media all and (min-width: 0px) {
-    body {
-        background-color: lightgreen;
+    .home-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+
 }
 
 /* sm breakpoint */
 @media all and (min-width: 576px) {
+    body {
+        background-color: grey;
+    }
+
     .home-col {
-        font-size: 2.5rem;
+        /* font-size: 2.5rem; */
     }
 }
 
 /* md breakpoint */
 @media all and (min-width: 768px) {
+    .home-col {
+        flex-direction: row;
+        gap: .5rem;
+    }
+
+    body {
+        background-color: palegoldenrod;
+    }
+
     .home-col {
         font-size: 2.5rem;
     }
@@ -157,26 +161,27 @@
 
 /* lg breakpoint */
 @media all and (min-width: 992px) {
+    .home-col {
+        font-size: 3.25rem;
+    }
+
     body {
-        background-color: lightgreen;
+        background-color: blue;
     }
 }
 
 /* xl breakpoint */
 @media all and (min-width: 1200px) {
+    .home-col {
+        font-size: 3.25rem;
+    }
+
     body {
-        background-color: lightgreen;
+        background-color: pink;
     }
 }
 
-$grid-breakpoints: (
-    xs: 0,
-    sm: 576px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px,
-    xxl: 1400px
-);
+
 
 
 
@@ -213,8 +218,13 @@ $grid-breakpoints: (
 }
 
 .heading-subtext {
-    font-size: 1.2rem
+    font-size: 1.2rem;
+    display: block;
+    visibility: hidden;
+    animation: reveal-subtext 1.5s cubic-bezier(0.77, 0, 0.175, 1) 1s forwards;
+    animation-delay: 5s;
 }
+
 
 .heading-button {
     background-color: aqua;
@@ -223,5 +233,22 @@ $grid-breakpoints: (
     font-weight: 600;
     letter-spacing: 2px;
     width: 16rem;
+    visibility: hidden;
+    animation: reveal-subtext 1.5s cubic-bezier(0.77, 0, 0.175, 1) 1s forwards;
+    animation-delay: 6.5s;
     /* border-radius: ; */
+}
+
+
+@keyframes reveal-subtext {
+    from {
+        transform: translate(0, 100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(0, 0);
+        visibility: visible;
+        opacity: 1;
+    }
 }
