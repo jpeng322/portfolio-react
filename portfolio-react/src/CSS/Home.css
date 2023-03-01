@@ -1,12 +1,102 @@
-
 .home-section {
     /* border: 1px solid red; */
     min-height: 100vh;
     background-color: var(--secondary-color);
-    color: var(--tertiary-color)
+    color: var(--tertiary-color);
+    position: relative;
 }
 
+.home-section svg {
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 50%;
+    top: 80.3%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    height: 40vh;
+    width: 40vh;
+    /* border: 1px solid red; */
+}
 
+#Vector_31 {
+
+    animation: wave 2.5s infinite;
+    transform-origin: left bottom;
+    display: inline-block;
+    fill: red;
+    border: 1px solid red;
+    transform-origin: 50% 80%;
+    transform: rotate(-5deg);
+}
+
+/* #hand {
+
+    display: inline-block;
+    fill: red;
+    border: 1px solid red;
+    transform-origin: 50% 80%;
+    transform: rotate(-10deg);
+} */
+
+
+
+
+@keyframes wave {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(1.0deg)
+    }
+
+    20% {
+        transform: rotate(-1.0deg)
+    }
+
+    30% {
+        transform: rotate(1.0deg)
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+/* 
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0.0deg)
+    }
+
+    10% {
+        transform: rotate(1.0deg)
+    }
+
+    20% {
+        transform: rotate(-1.0deg)
+    }
+
+    30% {
+        transform: rotate(1.0deg)
+    }
+
+    40% {
+        transform: rotate(-1.0deg)
+    }
+
+    50% {
+        transform: rotate(1.0deg)
+    }
+
+    60% {
+        transform: rotate(0.0deg)
+    }
+
+
+    100% {
+        transform: rotate(0.0deg)
+    }
+} */
 
 .top-home-heading {
     /* width: 15em; */
@@ -16,9 +106,9 @@
     border-right: 2px solid transparent;
     white-space: nowrap;
     overflow: hidden;
-    color: 
-    /* border-right: .15em solid transparent */
-    /* font-size: ; */
+    color:
+        /* border-right: .15em solid transparent */
+        /* font-size: ; */
 
 }
 
@@ -191,4 +281,3 @@
         opacity: 1;
     }
 }
-

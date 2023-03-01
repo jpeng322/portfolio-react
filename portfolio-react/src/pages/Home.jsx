@@ -2,7 +2,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "../CSS/Home.css";
-
+import ArmSVG from '../components/HomeComp/ArmSVG';
+import BodySVG from '../components/HomeComp/BodySVG';
+import WholeBody from '../components/HomeComp/WholeSVG';
 
 const Home = () => {
     return (
@@ -23,6 +25,13 @@ const Home = () => {
             </Row>
             <Row className='home-row d-flex justify-content-center '>
                 <Col className="heading-button mt-3 text-center p-2" xs={4} md={2}>Contact</Col>
+            </Row>
+            <Row>
+                <Col>
+                    {/* <ArmSVG />
+                    <BodySVG /> */}
+                    <WholeBody />
+                </Col>
             </Row>
         </Container >
     );
