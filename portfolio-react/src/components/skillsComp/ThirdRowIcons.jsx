@@ -14,7 +14,7 @@ const ThirdRowIcons = () => {
     return (
         <>
             <IconHeaderVP header="Tools" />
-            <Row className="d-flex  text-center m-0 gap-3 p-2">
+            <Row className="icon-row d-flex  text-center m-0 gap-3 p-2">
                 <IconContainerVP
                     svgInfo={<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                         <path

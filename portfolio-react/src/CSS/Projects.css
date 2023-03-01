@@ -102,7 +102,7 @@
     width: 40%;
     border-radius: .25rem;
     text-decoration: none;
-    border: 2px solid var(--pop-color);
+    border: 2px solid var(--dark-pop-color);
     transition: .25s ease-in-out;
 }
 
@@ -113,7 +113,7 @@
 
 .text:hover {
     /* color: white; */
-    background-color: var(--pop-color);
+    background-color: var(--dark-pop-color);
 }
 
 .middle footer {
@@ -141,8 +141,15 @@
 
 
 .middle .github {
-    color: var(--pop-color)
+    color: var(--tertiary-color);
+    cursor: pointer;
+    color: var(--dark-pop-color)
 }
+
+/* .middle .github:hover {
+    color: var(--pop-color);
+    color: var(--tertiary-color);
+} */
 
 .middle footer span {
     margin-left: 3px

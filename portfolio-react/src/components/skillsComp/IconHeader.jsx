@@ -9,7 +9,7 @@ const IconHeader = (props) => {
 
     return (
         <Row  ref={forwardedRef} className={`${animations} m-0`}>
-            <Col className="languages d-flex flex-column text-center">{props.header}</Col>
+            <Col className="icon-header d-flex flex-column text-center">{props.header}</Col>
         </Row>
     );
 }
