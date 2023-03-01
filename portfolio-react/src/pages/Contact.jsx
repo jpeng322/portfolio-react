@@ -18,7 +18,7 @@ const ContactForm = (props) => {
 
     const animations = inViewport && enterCount === 1 ? "animate__animated animate__fadeIn animate__delay-1s" : ""
     return (
-        <Col ref={forwardedRef} id="contact-section" className={`contact-container mt-5 mb-5 p-4 ${animations}`} xs={10} sm={10} md={8} lg={7} xl={6} xxl={5}>
+        <Col ref={forwardedRef} className={`contact-container mt-5 mb-5  ${animations}`} xs={10} sm={10} md={8} lg={7} xl={6} xxl={5}>
             <Row>
                 <Col className="contact-header text-center">
                     Get in Touch
@@ -41,9 +41,9 @@ const ContactForm = (props) => {
                     </Row>
                     <FormInput
                         controlId="floatingEmail"
-                        label="Email Address"
+                        label="Email"
                         type="email"
-                        placeholder="Email Address"
+                        placeholder="Email"
                     />
                     <FormInput
                         controlId="floatingSubject"
@@ -73,7 +73,7 @@ const ContactFormVP = handleViewport(ContactForm)
 
 const Contact = () => {
     return (
-        <Container fluid className="contact-section d-flex flex-column justify-content-center border border-danger" id="contact-section">
+        <Container fluid id="contact-section" className="contact-section d-flex flex-column justify-content-center">
             <Row className='d-flex justify-content-center'>
                 <ContactFormVP />
             </Row>
