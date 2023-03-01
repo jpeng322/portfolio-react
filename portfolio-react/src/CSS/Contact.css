@@ -1,3 +1,7 @@
+.contact-section {
+    min-height: 100vh;
+}
+
 .contact-header {
     font-size: 3rem;
     font-weight: 700;
@@ -5,7 +9,7 @@
 }
 
 .contact-container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     --animate-delay: .5s;
 }
 
@@ -31,8 +35,8 @@
 
 #contact-section .form-control {
     color: var(--header-color) !important;
-    border: none;
-    border-bottom: 2px solid black;
+    border: 1px solid grey;
+    /* border-bottom: 2px solid black; */
     border-radius: 0 !important;
     /* transition: .5s ease-in-out; */
 }

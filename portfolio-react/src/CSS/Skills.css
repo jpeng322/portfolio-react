@@ -1,6 +1,11 @@
 .skills-section {
-    background: #e4e1e1;
+    /* background: #e4e1e1; */
     min-height: 100vh;
+    /* background-color: var(--secondary-color); */
+    /* background-color: var(--tertiary-color); */
+    /* color: var(--main-color) */
+    color: var(--tertiary-color);
+    /* color: var(--secondary-color) */
 }
 
 .skills-head>* {
@@ -60,7 +65,7 @@
 }
 
 .icon-container {
-    border: 1px solid black;
+    border: 2px solid var(--tertiary-color);
     border-radius: .5rem;
     /* width: 50px;
     height: 100px; */
@@ -74,29 +79,15 @@
 .icon-container svg {
     height: 50px;
     width: 50px;
+    fill: var(--tertiary-color)
 }
 
-.row-icon-container>*:nth-child(2) {
 
-    --animate-delay: .5s;
-
-}
-
-.row-icon-container>*:nth-child(4) {
-    --animate-delay: .5s;
-
-}
-
-.row-icon-container>*:nth-child(6),
-.row-icon-container>*:nth-child(5) {
-    --animate-delay: .5s;
-
-}
 
 .row-icon-container>*,
 .about-description>*,
-.skills-header {
-    --animate-delay: .5s;
+.skills-head {
+    --animate-delay: .25s;
 }
 
 .about-description {

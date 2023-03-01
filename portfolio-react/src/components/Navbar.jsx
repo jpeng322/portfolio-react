@@ -2,11 +2,23 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "../CSS/Navbar.css"
-
+import { useState } from 'react';
 function NavbarComp() {
+
+    const [scrolled, setScrolled] = useState("")
+
+    window.onscroll = function () {
+        if (window.scrollY >= window.innerHeight) {
+            setScrolled("scrolled")
+
+        } else {
+            setScrolled("")
+            console.log("asdad")
+        }
+    }
     return (
-        <Navbar bg="light" expand="md">
-            <Container fluid className="d-flex justify-content-between p-2 ps-5 pe-5  ">
+        <Navbar expand={`md ${scrolled}`} className={scrolled}>
+            <Container fluid className="d-flex justify-content-between p-2 ps-5 pe-5 ">
                 <Navbar.Brand href="#">Jacky Peng</Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll" className='flex-grow-0'>

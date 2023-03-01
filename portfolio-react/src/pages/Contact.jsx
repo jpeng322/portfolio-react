@@ -73,7 +73,7 @@ const ContactFormVP = handleViewport(ContactForm)
 
 const Contact = () => {
     return (
-        <Container fluid className="contact-section mt-5 mb-5 border border-danger" id="contact-section">
+        <Container fluid className="contact-section d-flex flex-column justify-content-center border border-danger" id="contact-section">
             <Row className='d-flex justify-content-center'>
                 <ContactFormVP />
             </Row>

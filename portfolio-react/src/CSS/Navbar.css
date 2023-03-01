@@ -1,16 +1,37 @@
 .navbar {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* height: 10vh; */
     position: fixed;
     z-index: 1;
     width: 100%;
+    background-color: var(--secondary-color);
+    /* color: var(--main-color) */
+    /* box-shadow: 0px 0px 1px 0px var(--tertiary-color) */
 }
+
+.scrolled {
+    background-color: white;
+    /* box-shadow: 0px 0px 1px 0px black */
+}
+
 
 .nav-link {
     text-transform: uppercase;
     /* padding: 0rem 2rem !important; */
     /* border: 1px solid red; */
     font-weight: 600;
-    color: #333;
+
 }
 
+.nav-link:hover{
+    color: var(--dark-pop-color)
+}
+
+.navbar-brand,
+.nav-link {
+    color: var(--tertiary-color)
+}
+
+.active {
+    color: var(--dark-pop-color) !important
+}
