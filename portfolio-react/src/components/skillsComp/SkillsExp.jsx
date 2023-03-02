@@ -38,15 +38,15 @@ const SkillsExpCard = (props) => {
             className={`exp-card p-3 ${animations}`}
             xs={12} lg={11} xl={12}>
 
-            <div class="exp-card-header">
+            <div className="exp-card-header">
                 <p>Web Development Fellow</p>
             </div>
-            <div class="exp-card-subheader">
-                <p class="exp-subheader-top">The Knowledge House</p>
-                <p class="subheader"> July 2022 - Present</p>
-                <p class="subheader">Course Grade: 99/100</p>
+            <div className="exp-card-subheader">
+                <p className="exp-subheader-top">The Knowledge House</p>
+                <p className="subheader"> July 2022 - Present</p>
+                <p className="subheader">Course Grade: 99/100</p>
             </div>
-            <div class="exp-card-text">
+            <div className="exp-card-text">
                 <p> Enhanced technical skills and work readiness through 15 hours of technical
                     instruction, 20 hours of technical coursework and one day of
                     professional development per week.

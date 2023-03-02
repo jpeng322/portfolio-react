@@ -6,6 +6,8 @@ import ArmSVG from '../components/HomeComp/ArmSVG';
 import BodySVG from '../components/HomeComp/BodySVG';
 import WholeBody from '../components/HomeComp/WholeSVG';
 
+import gsap from "gsap";
+
 const Home = () => {
     return (
         <Container fluid id="home-section" className="home-section d-flex flex-column justify-content-center gap-4">
@@ -28,11 +30,12 @@ const Home = () => {
             </Row>
             <Row>
                 <Col>
-                    {/* <ArmSVG />
-                    <BodySVG /> */}
-                    <WholeBody />
+                    {/* <ArmSVG /> */}
+                    <BodySVG />
+                    {/* <WholeBody /> */}
                 </Col>
             </Row>
+
         </Container >
     );
 }
