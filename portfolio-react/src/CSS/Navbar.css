@@ -20,9 +20,23 @@
     /* padding: 0rem 2rem !important; */
     /* border: 1px solid red; */
     font-weight: 600;
+    /* --animate-delay: 1s */
 
 }
 
+.nav-link:nth-child(1) {
+    --animate-delay: .1s
+}
+
+.nav-link:nth-child(2) {
+    --animate-delay: .2s
+}
+.nav-link:nth-child(3) {
+    --animate-delay: .3s
+}
+.nav-link:nth-child(4) {
+    --animate-delay: .4s
+}
 .nav-link:hover{
     color: var(--dark-pop-color)
 }

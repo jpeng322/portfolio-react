@@ -6,7 +6,7 @@ import ArmSVG from '../components/HomeComp/ArmSVG';
 import BodySVG from '../components/HomeComp/BodySVG';
 import WholeBody from '../components/HomeComp/WholeSVG';
 
-import gsap from "gsap";
+
 
 const Home = () => {
     return (
