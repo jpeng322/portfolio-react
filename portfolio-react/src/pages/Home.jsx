@@ -2,9 +2,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import "../CSS/Home.css";
-import ArmSVG from '../components/HomeComp/ArmSVG';
+// import ArmSVG from '../components/HomeComp/CatSVG';
 import BodySVG from '../components/HomeComp/BodySVG';
-import WholeBody from '../components/HomeComp/WholeSVG';
+// import WholeBody from '../components/HomeComp/WholeSVG';
+import LoadPage from './Load';
 
 
 
@@ -31,6 +32,7 @@ const Home = () => {
             <Row>
                 <Col>
                     {/* <ArmSVG /> */}
+                    {/* <LoadPage /> */}
                     <BodySVG />
                     {/* <WholeBody /> */}
                 </Col>

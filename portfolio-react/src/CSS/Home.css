@@ -25,38 +25,7 @@
 .jacky-container {
     --animate-delay: 3s
 }
-.catsvg>* {
-    position: absolute;
-    border: 1px solid red;
-    /* transform: translate(10px); */
-}
 
-#ewo4eiA5X1Q1 {
-    border: 1px solid red;
-    animation: move 3.6s;
-    /* transform: translate(10px); */
-    /* animation-iteration-count: 1; */
-}
-
-@keyframes move {
-    0% {
-        /* transform: translate(-100px); */
-        left: 0;
-    }
-
-    /* 10% {
-        transform: rotate(1.0deg)
-    }
-
-    20% {
-        transform: rotate(-1.0deg)
-    } */
-
-    100% {
-        left: 50;
-        /* transform: translate(200px) */
-    }
-}
 
 /* hair left brow right brow */
 #Vector_17,

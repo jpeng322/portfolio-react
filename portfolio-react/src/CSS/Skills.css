@@ -91,12 +91,42 @@
 
 
 
-.row-icon-container > * {
-    /* border: 1px solid red; */
-}
-.row-icon-container>*,
+/* .row-icon-container > * {
+    border: 1px solid red;
+} */
+.icon-header,
 .about-description>*,
 .skills-head {
     --animate-delay: .25s;
+}
+
+
+/* .row-icon-container > * {
+    border: 1px solid black;
+}
+
+.icon-header {
+    border: 1px solid red;
+} */
+ /* {
+    border: 1px solid red;
+} */
+
+.icon-container:nth-child(1) {
+    /* border: 1px solid red; */
+    --animate-delay: .25s
+}
+
+.icon-container:nth-child(2) {
+    /* border: 1px solid red; */
+    --animate-delay: .35s
+}
+.icon-container:nth-child(3) {
+    /* border: 1px solid red; */
+    --animate-delay: .45s
+}
+
+.icon-header {
+    /* border: 1px solid red; */
 }
 
