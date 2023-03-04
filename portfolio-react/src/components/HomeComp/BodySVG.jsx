@@ -32,7 +32,7 @@ const BodySVG = () => {
     }, [normalEyes, smileEyes])
     return (
         <div className="jacky-container animate__animated animate__fadeIn animate__delay-2s">
-            <svg width="175" height="225" viewBox="0 0 175 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg id="jacky-svg" width="175" height="225" viewBox="0 0 175 225" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="Group 3">
                     <g id="Group 2">
                         <g id="body smile">

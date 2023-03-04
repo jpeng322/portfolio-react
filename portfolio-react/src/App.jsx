@@ -1,5 +1,7 @@
 import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css';
+
 
 
 import { useState, useEffect } from "react";

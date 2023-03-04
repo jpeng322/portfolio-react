@@ -6,8 +6,7 @@ const IconContainer = (props) => {
     const { inViewport, enterCount, forwardedRef } = props;
 
     const animations = inViewport && enterCount === 1 ? "animate__animated animate__fadeIn animate__delay-1s" : ""
-    // const animations = inViewport && enterCount === 1 ? "fadeup" : ""
-    console.log(animations, "ICON")
+
     return (
         <Col ref={forwardedRef} className={`icon-container ${animations}`} >
             <div>{props.svgInfo}</div>

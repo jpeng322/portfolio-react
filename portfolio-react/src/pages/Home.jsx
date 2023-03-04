@@ -5,8 +5,7 @@ import "../CSS/Home.css";
 // import ArmSVG from '../components/HomeComp/CatSVG';
 import BodySVG from '../components/HomeComp/BodySVG';
 // import WholeBody from '../components/HomeComp/WholeSVG';
-import LoadPage from './Load';
-
+import Media from '../components/Media';
 
 
 const Home = () => {
@@ -33,6 +32,11 @@ const Home = () => {
                 <Col>
                     {/* <ArmSVG /> */}
                     {/* <LoadPage /> */}
+ 
+                    {/* <div className="right-media">
+                        <a className="email" href='https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=jackypengsmail@gmail.com'>jackypengsmail@gmail.com</a>
+                        <div className="line"></div>
+                    </div> */}
                     <BodySVG />
                     {/* <WholeBody /> */}
                 </Col>

@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.home-section svg {
+#jacky-svg {
     /* border: 1px solid red; */
     position: absolute;
     left: 50%;
@@ -51,12 +51,6 @@
     transform: rotate(-5deg);
 }
 
-/* #jacky {
-    visibility: hidden;
-    animation: reveal-me 2s ease-in forwards;
-} */
-
-
 #open_eyes>* {
     animation: eyes-open 2s infinite;
     /* fill: white */
@@ -64,9 +58,6 @@
     transition: 1s;
 }
 
-.hidden {
-    visibility: hidden;
-}
 
 
 

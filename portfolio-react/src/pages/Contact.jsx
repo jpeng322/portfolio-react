@@ -6,10 +6,10 @@ import Form from 'react-bootstrap/Form';
 import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import "../CSS/Contact.css";
 
-import 'animate.css';
-
 //component
 import FormInput from '../components/ContactComp/FormInput';
+import Media from '../components/Media';
+import SleepingCatSVG from '../components/ContactComp/SleepingCat';
 
 import handleViewport from 'react-in-viewport';
 
@@ -18,10 +18,15 @@ const ContactForm = (props) => {
 
     const animations = inViewport && enterCount === 1 ? "animate__animated animate__fadeIn animate__delay-1s" : ""
     return (
-        <Col ref={forwardedRef} className={`contact-container mt-5 mb-5  ${animations}`} xs={10} sm={10} md={8} lg={7} xl={6} xxl={5}>
-            <Row>
-                <Col className="contact-header text-center">
+        <Col ref={forwardedRef} className={`contact-container mt-5 mb-5  ${animations}`} xs={10} sm={10} md={8} lg={7} xl={7} xxl={5}>
+            <Row className="form-header d-flex flex-xs-column flex-xl-row text-center text-xl-start">
+                <Col className="contact-header-text text-xs-center" xs={12} md={12} xl={9}>
                     Get in Touch
+                </Col>
+                <Col className="contact-header-icon d-flex justify-content-center align-items-center justify-content-xl-end ">
+                    {/* <Col className=""> */}
+                    <Media />
+                    {/* </Col> */}
                 </Col>
             </Row>
             <Row>
@@ -77,6 +82,7 @@ const Contact = () => {
             <Row className='d-flex justify-content-center'>
                 <ContactFormVP />
             </Row>
+            <SleepingCatSVG />
         </Container>
     );
 }

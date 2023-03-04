@@ -13,7 +13,6 @@ function NavbarComp() {
 
         } else {
             setScrolled("")
-            console.log("asdad")
         }
     }
     return (
