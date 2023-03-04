@@ -30,15 +30,7 @@ const Home = () => {
             </Row>
             <Row>
                 <Col>
-                    {/* <ArmSVG /> */}
-                    {/* <LoadPage /> */}
- 
-                    {/* <div className="right-media">
-                        <a className="email" href='https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=jackypengsmail@gmail.com'>jackypengsmail@gmail.com</a>
-                        <div className="line"></div>
-                    </div> */}
                     <BodySVG />
-                    {/* <WholeBody /> */}
                 </Col>
             </Row>
 

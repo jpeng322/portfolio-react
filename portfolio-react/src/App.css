@@ -6,11 +6,9 @@
 .App {
   font-family: 'Source Sans Pro', sans-serif;
   --main-color: black;
-  /* --secondary-color: #191645; */
   --secondary-color: #CDDEFF;
   --pop-color: #2ed4b3;
   --dark-pop-color: #2ecaab;
-  /* --tertiary-color: #00d4ff; */
   --tertiary-color: #180979;
 }
 
@@ -19,114 +17,10 @@
   visibility: hidden;
 }
 
-.left-media {
-  position: absolute;
-  /* border: 1px solid black; */
-  bottom: 0px;
-  left: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.75rem;
-}
-
-.left-media a {
-  color: var(--tertiary-color);
-  transition: .2s;
-}
-
-.left-media a:hover,
-.email:hover {
-  color: var(--dark-pop-color);
-  cursor: pointer;
-  transform: translateY(-2px);
-}
-
-.left-media svg {
-  width: 1.5rem;
-  height: 1.5rem;
-  /* border: 1px solid red; */
-  /* color: var(--dark-pop-color) */
-}
-
-.line {
-  border: 1px solid var(--tertiary-color);
-  width: 0px;
-  /* border: none; */
-  height: 125px;
-  /* border-left: 2px solid red; */
-  left: 50px
-}
-
-.right-media {
-  position: absolute;
-  /* border: 1px solid black; */
-  bottom: 0px;
-  right: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: .75rem;
-}
-
-.email {
-  writing-mode: vertical-rl;
-  letter-spacing: .1rem;
-  /* font-weight: 700px; */
-  font-weight: 700;
-  font-size: 1rem;
-  text-decoration: none;
-  color: var(--tertiary-color);
-}
-
-
-/* .new-media {
-  position: absolute;
-  display: flex;
-  gap: 1rem;
-  right: 100px;
-  bottom: 20px;
-}
-
-.new-media svg {
-  width: 1.5rem;
-  height: 1.5rem;
-} */
-
-
-/* body {
-  --sb-track-color: #FFFFFF;
-  --sb-thumb-color: #180979;
-  --sb-size: 10px;
-
-  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
-}
-
-body::-webkit-scrollbar {
-  width: var(--sb-size);
-}
-
-body::-webkit-scrollbar-track {
-  background: var(--sb-track-color);
-  border-radius: 100vw;
-  margin-block: .25rem;
-}
-
-body::-webkit-scrollbar-thumb {
-  background: var(--sb-thumb-color);
-  border-radius: 100vw;
-} */
 
 body {
   overflow: overlay;
 }
-
-/* .div1 {
-  background: grey;
-  margin-top: 200px;
-  margin-bottom: 20px;
-  height: 20px;
-} */
 
 ::-webkit-scrollbar {
   width: 10px;
