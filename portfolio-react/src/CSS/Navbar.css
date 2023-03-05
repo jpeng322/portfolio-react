@@ -113,32 +113,17 @@
     color: var(--tertiary-color)
 }
 
-/* .active {
-    color: var(--dark-pop-color) !important
-} */
-
 
 .active {
-    /* border: 1px solid red; */
     border-bottom: 3px solid var(--dark-pop-color);
-    /* transition: .2s; */
-    /* color: var(--dark-pop-color)  */
 }
 
-.collapse.show{
-    /* border:1px solid red ; */
-}
 
 .navbar-toggler {
     border: px solid var(--tertiary-color);
     color: rgba(0, 0, 0, 0);
     padding: 0;
 }
-
-.collapse.show {
-    /* border: 1px solid blue; */
-}
-
 
 
 .hamburger-react {
