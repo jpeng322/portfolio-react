@@ -3,6 +3,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import "../CSS/Navbar.css"
 import { useState } from 'react';
+import Scrollspy from "react-scrollspy"
+
+
+import Hamburger from "hamburger-react"
+
+
+
 function NavbarComp() {
 
     const [currentScroll, setCurrentScroll] = useState(0)
@@ -15,7 +22,7 @@ function NavbarComp() {
     window.onscroll = function () {
         setCurrentScroll(window.pageYOffset)
         if (window.scrollY >= window.innerHeight) {
-            setScrolled("scrolled")
+            setScrolled("scrolled-passed-home")
 
         } else {
             setScrolled("")
@@ -35,24 +42,42 @@ function NavbarComp() {
 
         setLastScroll(currentScroll)
 
-        }
-
-        return (
-            <Navbar expand={`md `} className={`${scrolled} ${scrollUp}`}>
-                <Container fluid className="d-flex justify-content-between p-2 ps-5 pe-5 ">
-                    <Navbar.Brand href="#">Jacky Peng</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
-                    <Navbar.Collapse id="navbarScroll" className='flex-grow-0'>
-                        <Nav>
-                            <Nav.Link className="pe-4 ps-4 animate__animated animate__fadeInDown animate__delay-1s" href="#home-section">Home</Nav.Link>
-                            <Nav.Link className="pe-4 ps-4 animate__animated animate__fadeInDown animate__delay-1s" href="#skills-section">About</Nav.Link>
-                            <Nav.Link className="pe-4 ps-4 animate__animated animate__fadeInDown animate__delay-1s" href="#projects-section">Projects</Nav.Link>
-                            <Nav.Link className="pe-4 ps-4 animate__animated animate__fadeInDown animate__delay-1s" href="#contact-section">Contact</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-        );
     }
 
-    export default NavbarComp;
+    const [isOpen, setOpen] = useState(false)
+
+    console.log(isOpen)
+
+    return (
+        <Navbar expand={`md`} className={`${scrolled} ${scrollUp}`}>
+            <Container fluid className="d-flex justify-content-between ps-5 pe-5 ">
+                <Navbar.Brand href="#">Jacky Peng</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav">  < Hamburger toggled={isOpen} toggle={setOpen} duration={.6} /></Navbar.Toggle>
+                <Navbar.Collapse id="navbarScroll" className='flex-grow-0'>
+
+                    <Nav id="navbar" className="">
+                        <Scrollspy className='scrollspy d-flex flex-column flex-md-row' items={['home-section', 'skills-section', 'projects-section', "contact-section"]} currentClassName="active">
+                            <li className=" animate__animated animate__fadeInDown animate__delay-1s">
+                                <a href="#home-section">Home</a></li>
+                            <li className=" animate__animated animate__fadeInDown animate__delay-1s">
+                                <a href="#skills-section">About</a></li>
+                            <li className=" animate__animated animate__fadeInDown animate__delay-1s">
+                                <a href="#projects-section">Projects</a></li>
+                            <li className=" animate__animated animate__fadeInDown animate__delay-1s">
+                                <a href="#contact-section">Contact</a></li>
+                        </Scrollspy >
+                    </Nav>
+
+
+
+                </Navbar.Collapse>
+
+            </Container>
+
+
+
+        </Navbar >
+    );
+}
+
+export default NavbarComp;

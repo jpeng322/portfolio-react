@@ -6,7 +6,7 @@ import "../CSS/Home.css";
 import BodySVG from '../components/HomeComp/BodySVG';
 // import WholeBody from '../components/HomeComp/WholeSVG';
 import Media from '../components/Media';
-
+import Scrollspy from "react-scrollspy"
 
 const Home = () => {
     return (

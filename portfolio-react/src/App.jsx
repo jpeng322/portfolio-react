@@ -2,7 +2,7 @@ import "./App.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
 
-
+import Scrollspy from "react-scrollspy"
 
 import { useState, useEffect } from "react";
 
@@ -12,11 +12,12 @@ import Home from './pages/Home';
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-
 import LoadPage from "./pages/Load";
 
-const cat = document.querySelector("#ewo4eiA5X1Q1")
-console.log(cat)
+import Nav2 from "./components/NavBar2";
+
+// import Random from "./components/Random";
+
 function App() {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
@@ -29,16 +30,18 @@ function App() {
 
   return (
     <div className="App">
-{/* <LoadPage /> */}
+      {/* <LoadPage /> */}
       {loading ? <LoadPage /> :
         <>
-          <NavbarComp />
           <Home />
           <Skills />
           <Projects />
           <Contact />
+          <NavbarComp />
+          {/* <Nav2 /> */}
         </>}
-    </div>
+
+    </div >
   )
 }
 
