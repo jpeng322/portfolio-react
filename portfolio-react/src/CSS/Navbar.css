@@ -3,7 +3,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    /* padding: 20px 0; */
     text-align: center;
     z-index: 9999;
     transition: all 300ms ease-in-out;
@@ -16,6 +15,25 @@
     /* border: 1px solid red; */
     display: flex;
     align-items: center;
+}
+
+
+.navbar-brand {
+    /* border: 1px solid blue; */
+    /* display: flex; */
+    --animate-delay: .4s;
+
+}
+
+.navbar-brand svg {
+    /* border: 1px solid red; */
+    height: 3rem;
+    width: 3rem;
+    /* margin-top: 1rem */
+    /* display: flex; */
+    ;
+    /* position: absolute;
+    bottom: 10px; */
 }
 
 .scrollspy {
@@ -60,13 +78,10 @@
 }
 
 
-.scrolled-passed-home {
-    background-color: #fff;
-    /* box-shadow: 0px 0px 1px 0px black */
-}
 
 .scroll-up {
     display: hidden;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
 
 .scroll-down {
@@ -74,6 +89,14 @@
     transform: translate3d(0, -100%, 0);
 }
 
+.scrolled-passed-home {
+    background-color: #fff;
+}
+
+.at-home {
+    box-shadow: none;
+    border: 1px solid red;
+}
 
 .nav-link {
     text-transform: uppercase;
@@ -88,20 +111,20 @@
 
 
 .scrollspy li:nth-child(1) {
-    --animate-delay: .1s;
+    --animate-delay: .5s;
     /* border: 1px solid red; */
 }
 
 .scrollspy li:nth-child(2) {
-    --animate-delay: .2s
+    --animate-delay: .6s
 }
 
 .scrollspy li:nth-child(3) {
-    --animate-delay: .3s
+    --animate-delay: .7s
 }
 
 .scrollspy li:nth-child(4) {
-    --animate-delay: .4s
+    --animate-delay: .8s
 }
 
 .nav-link:hover {
@@ -129,4 +152,5 @@
 .hamburger-react {
     color: var(--tertiary-color);
     transition: 5s;
+    /* height: 90px; */
 }

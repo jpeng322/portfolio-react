@@ -23,7 +23,7 @@
     height: 50px;
 } */
 .jacky-container {
-    --animate-delay: 3s
+    --animate-delay: 3.5s
 }
 
 
@@ -127,7 +127,7 @@
     display: transparent;
     /* animation: typing 1.8s steps(23), blinking .6s step-end 3; */
     animation: typing 1.8s steps(23), blinking .6s step-end 3, reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1) 1.5s forwards;
-    animation-delay: 1.5s;
+    animation-delay: 2.0s;
     border-right: 2px solid transparent;
     white-space: nowrap;
     overflow: hidden;
@@ -140,7 +140,7 @@
     border-right: 2px solid transparent;
     white-space: nowrap;
     overflow: hidden;
-    animation-delay: 3.3s;
+    animation-delay: 3.8s;
     display: block;
     visibility: hidden;
     /* border: 1px solid blue; */

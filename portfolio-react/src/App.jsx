@@ -14,7 +14,6 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import LoadPage from "./pages/Load";
 
-import Nav2 from "./components/NavBar2";
 
 // import Random from "./components/Random";
 

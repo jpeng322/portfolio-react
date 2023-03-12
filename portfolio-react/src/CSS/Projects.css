@@ -1,19 +1,10 @@
-.projects-section * {
-    /* background: red; */
-    /* --img-background-color: #b5b6b7;
-    --img-text-color: #333;
-    --img-outline-color: pink; */
 
-}
 
 .projects-section {
-    /* height: 100vh; */
-    /* background-color: var(--secondary-color); */
-    /* border: 1px solid red; */
-    min-height: 104vh;
+    min-height: 100vh;
     color: var(--tertiary-color);
     color: var(--dark-pop-color);
-    /* color: var(--pop-color) */
+
 }
 
 .projects-header {
