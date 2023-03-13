@@ -34,7 +34,7 @@ const ProjectHeaderVP = handleViewport(ProjectHeaderContainer)
 const Projects = () => {
 
     return (
-        <Container fluid id="projects-section" className="projects-section d-flex flex-column justify-content-center pt-5 pb-5">
+        <Container fluid id="projects-section" className="projects-section d-flex flex-column justify-content-center ">
             <ProjectHeaderVP />
             <Row className="d-flex justify-content-center ">
                 <Col className="project-container d-flex " xs={11} md={12} lg={11} xl={12} xxl={12}>

@@ -20,9 +20,12 @@ const SkillsExpText = (props) => {
 
     return (
         < Col ref={forwardedRef} className={animations} xs={12} >
-            My journey began almost a year ago, after being reintroduced to coding by a high school friend and eventually discovering an interest in web development.Currently, I am a web development fellow at The Knowledge House, honing my skills in Javascript, CSS, and HTML, as well as learning the MERN stack.
-
-            My goal is to create responsive websites and applications that users can easily navigate and enjoy accessing. Some of my latest work includes a simple website to learn about cat breeds using React and a CRUD that allows its users to write down journal notes. I hope to broaden my expertise and implement animations or custom features.
+            <div>
+                My journey began almost a year ago, after being reintroduced to coding by a high school friend and discovering enjoyment in web development. Currently, I am a web development fellow at The Knowledge House, honing my programming skills through daily technical classes, individual and group projects, and online self learning.
+            </div>
+            <div className="mt-3">
+                As of now, my main interest is in creating responsive websites and applications that are easily accessible and practical. Some of my latest work includes a website to learn about cat breeds using React and a fullstack CRUD application which allows its users to write down journal notes. My goals for the future are to create a more complex full-stack application involving in-depth testing, improved scalability, and more complex functionality.
+            </div>
         </Col >
     )
 }
