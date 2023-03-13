@@ -22,7 +22,6 @@ function NavbarComp() {
 
     window.onscroll = function () {
         setCurrentScroll(window.pageYOffset)
-        console.log(window.scrollY)
         if (window.scrollY >= window.innerHeight) {
             setScrolled("scrolled-passed-home")
 
