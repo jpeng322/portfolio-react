@@ -44,12 +44,14 @@
 .new-media a {
     color: var(--tertiary-color);
     transition: .2s;
+    fill: var(--tertiary-color)
 }
 
 .new-media a:hover {
     color: var(--dark-pop-color);
     cursor: pointer;
     transform: translateY(-2px);
+    fill: var(--dark-pop-color)
 }
 
 .contact-container {
@@ -151,8 +153,93 @@
     position: absolute;
     /* width: 100px; */
     /* z-index: 100; */
-    width: 40vw;
+    /* width: 40vw;
     top: 500px;
-    right: 150px;
+    right: 150px; */
     /* transform: translate(-50%, -50%); */
+}
+
+
+/* sm breakpoint */
+@media all and (min-width: 500px) {
+    .catsleep {
+        position: absolute;
+        bottom: 50px;
+        left: 340px;
+        /* border: 1px solid red; */
+        /* width: 240px; */
+        /* height: auto; */
+        width: 30vw;
+    }
+}
+
+
+@media all and (min-width: 575px) {
+    .catsleep {
+        position: absolute;
+        bottom: 100px;
+        left: 400px;
+        /* border: 1px solid blue; */
+        width: 30vw;
+        /* max-width: 450px; */
+    }
+}
+
+/* md breakpoint */
+@media all and (min-width: 768px) {
+
+    .catsleep {
+        position: absolute;
+        bottom: 60px;
+        left: 440px;
+        /* border: 1px solid pink; */
+        width: 40vw;
+        /* max-width: 450px; */
+    }
+}
+
+/* lg breakpoint */
+@media all and (min-width: 992px) {
+    .catsleep {
+        position: absolute;
+        bottom: 40px;
+        left: 600px;
+        /* border: 1px solid red; */
+        width: 40vw;
+        /* max-width: 450px; */
+    }
+}
+
+/* xl breakpoint */
+@media all and (min-width: 1200px) {
+    .catsleep {
+        position: absolute;
+        bottom: 60px;
+        left: 700px;
+        /* border: 1px solid green; */
+        width: 40vw;
+        /* max-width: 450px; */
+    }
+}
+
+@media all and (min-width: 1400px) {
+    .catsleep {
+        position: absolute;
+        bottom: 60px;
+        left: 860px;
+        /* border: 1px solid purple; */
+        width: 40vw;
+        /* max-width: 450px; */
+    }
+}
+
+@media all and (min-width: 1700px) {
+    .catsleep {
+        position: absolute;
+        bottom: 0px;
+        left: 1000px;
+        /* border: 1px solid wheat; */
+        width: 40vw;
+        /* max-width: 450px; */
+    }
 }
