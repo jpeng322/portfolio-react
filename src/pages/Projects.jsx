@@ -56,7 +56,8 @@ const Projects = () => {
                         />
 
                         <ProjectImageVP
-                            imageSrc={JournalApp}
+                            imageSrc="../outimages/journal-app.png"
+                            // imageSrc={JournalApp}
                             description="A full-stack journal application that allows the user to create an account and save daily
                             notes. "
                             textlanguages=
@@ -79,7 +80,8 @@ const Projects = () => {
                         />
 
                         <ProjectImageVP
-                            imageSrc={Pokedex}
+                            imageSrc="../outimages/pokedex.png"
+                            // imageSrc={Pokedex}
                             description="Dynamic Pokedex that searches and displays statistics of a specific
                             pokemon."
                             textlanguages=
@@ -96,7 +98,8 @@ const Projects = () => {
 
 
                         <ProjectImageVP
-                            imageSrc={TicTacToe}
+                            imageSrc="../outimages/tic-tac-toe-pic.png"
+                            // imageSrc={TicTacToe}
                             description="A two-player Squid Games themed Tic-Tac-Toe game with custom player names, 
                             marker selection, and move
                             indicators."
@@ -114,7 +117,8 @@ const Projects = () => {
 
 
                         <ProjectImageVP
-                            imageSrc={EtchSketch}
+                            imageSrc="../outimages/etchsketch.jpg"
+                            // imageSrc={EtchSketch}
                             description="An online rendition of the Etch A Sketch drawing toy with rainbow, erasure, and color selection modes."
                             textlanguages=
                             {<>
