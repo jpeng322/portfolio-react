@@ -8,10 +8,10 @@ import "../CSS/Projects.css"
 
 ///images
 // import CatSheet from "/outimages/cat-cheetah-sheet.png"
-import JournalApp from "../images/journal-app.png/"
-import Pokedex from "../images/pokedex.png"
-import TicTacToe from "../images/tic-tac-toe-pic.png"
-import EtchSketch from "../images/etchsketch.jpg"
+// import JournalApp from "../images/journal-app.png/"
+// import Pokedex from "../images/pokedex.png"
+// import TicTacToe from "../images/tic-tac-toe-pic.png"
+// import EtchSketch from "../images/etchsketch.jpg"
 
 //components
 import ProjectImage from '../components/ProjectComp/ProjectImage';
