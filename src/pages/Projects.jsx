@@ -7,11 +7,11 @@ import handleViewport from 'react-in-viewport';
 import "../CSS/Projects.css"
 
 ///images
-import CatSheet from "../images/cat-cheetah-sheet.png"
-import JournalApp from "../images/journal-app.png/"
-import Pokedex from "../images/pokedex.png"
-import TicTacToe from "../images/tic-tac-toe-pic.png"
-import EtchSketch from "../images/etchsketch.jpg"
+// import CatSheet from "../images/cat-cheetah-sheet.png"
+// import JournalApp from "../images/journal-app.png/"
+// import Pokedex from "../images/pokedex.png"
+// import TicTacToe from "../images/tic-tac-toe-pic.png"
+// import EtchSketch from "../images/etchsketch.jpg"
 
 //components
 import ProjectImage from '../components/ProjectComp/ProjectImage';
@@ -39,7 +39,7 @@ const Projects = () => {
             <Row className="d-flex justify-content-center ">
                 <Col className="project-container d-flex " xs={11} md={12} lg={11} xl={12} xxl={12}>
                     <Row className="project-container-row d-flex justify-content-center ">
-
+{/* 
                         <ProjectImageVP
                             imageSrc={CatSheet}
                             description="A responsive website that allows users to find information
@@ -125,7 +125,7 @@ const Projects = () => {
                             </>}
                             website="https://jpeng322.github.io/Etch-a-Sketch-Project/"
                             github="https://github.com/jpeng322/Etch-a-Sketch-Project"
-                        />
+                        /> */}
 
                     </Row>
                 </Col>
