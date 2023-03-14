@@ -7,7 +7,7 @@ import handleViewport from 'react-in-viewport';
 import "../CSS/Projects.css"
 
 ///images
-import CatSheet from "/outimages/cat-cheetah-sheet.png"
+// import CatSheet from "../outimages/cat-cheetah-sheet.png"
 // import JournalApp from "../images/journal-app.png/"
 // import Pokedex from "../images/pokedex.png"
 // import TicTacToe from "../images/tic-tac-toe-pic.png"
@@ -41,8 +41,8 @@ const Projects = () => {
                     <Row className="project-container-row d-flex justify-content-center ">
 
                         <ProjectImageVP
-                            // imageSrc="../outimages/cat-cheetah-sheet.png"
-                            imageSrc={CatSheet}
+                            imageSrc="/images/cat-cheetah-sheet.PNG"
+                            // imageSrc={CatSheet}
                             description="A responsive website that allows users to find information
                             on numerous cat breeds."
                             textlanguages=
