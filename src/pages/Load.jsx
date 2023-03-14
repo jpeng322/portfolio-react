@@ -1,9 +1,9 @@
-import CatSVG from "../components/HomeComp/CatSVG";
+import LoadCat from "../components/HomeComp/LoadCat";
 import "../CSS/LoadPage.css"
 const LoadPage = () => {
     return (
         <div className="loader">
-            <CatSVG />
+            <LoadCat />
         </div>
     );
 }
