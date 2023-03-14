@@ -16,8 +16,6 @@ const LoadCat = () => {
         <div className="catsvg">
 
             <Svg />
-            {/* <object type="image/svg+xml" data={<Svg />}></object> */}
-            {/* <Svg /> */}
         </div>
     );
 }
