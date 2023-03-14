@@ -1,6 +1,7 @@
 /* eslint-disable */
 
-import { ReactComponent as CatSleepSvg } from "../../images/catsleep.svg";
+// import { ReactComponent as CatSleepSvg } from "../../images/catsleep.svg";
+import { ReactComponent as CatSleepSvg } from "/public/catsleep.svg";
 import { useEffect } from "react";
 
 const SleepingCatSVG = () => {
