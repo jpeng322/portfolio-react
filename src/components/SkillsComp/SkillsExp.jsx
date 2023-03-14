@@ -21,10 +21,10 @@ const SkillsExpText = (props) => {
     return (
         < Col ref={forwardedRef} className={animations} xs={12} >
             <div>
-                My journey began almost a year ago, after being reintroduced to coding by a high school friend and discovering enjoyment in web development. Currently, I am a web development fellow at The Knowledge House, honing my programming skills through daily technical classes, individual and group projects, and online self learning.
+                My journey began almost a year ago, after being introduced to coding by a high school friend and discovering enjoyment in web development. Currently, I am a web development fellow at The Knowledge House, honing my programming skills through daily technical classes, individual and group projects, and online self learning.
             </div>
             <div className="mt-3">
-                As of now, my main interest is in creating responsive websites and applications that are easily accessible and practical. Some of my latest work includes a website to learn about cat breeds using React and a fullstack CRUD application which allows its users to write down journal notes. My goals for the future are to create a more complex full-stack application involving in-depth testing, improved scalability, and more complex functionality.
+                As of now, my main interest is in creating responsive websites and applications that are easily accessible and practical. Some of my latest work includes an informational website on cat breeds using React and a fullstack CRUD application which allows its users to write down journal notes. My goals for the near future are to create a more complex full-stack application involving in-depth testing, improved scalability, and additional functionality.
             </div>
         </Col >
     )

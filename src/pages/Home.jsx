@@ -23,7 +23,7 @@ const Home = () => {
                 </Col>
             </Row>
             <Row className='home-row d-flex justify-content-center'>
-                <Col className="heading-subtext  text-center" xs={12} md={8} lg={7} xl={5}>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</Col>
+                <Col className="heading-subtext  text-center" xs={11} md={8} lg={7} xl={5}>A web developer focused on creating dynamic, accessible, and scalable applications.  </Col>
             </Row>
             <Row className='home-row d-flex justify-content-center '>
                 <Col className="heading-button mt-3 text-center p-2" xs={4} md={2}>Contact</Col>
