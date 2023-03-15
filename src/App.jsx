@@ -31,9 +31,9 @@ function App() {
   return (
     <div className="App">
       {/* <LoadPage /> */}
-      {loading ? <Stopwatch/> :
+      {/* {loading ? <Stopwatch/> : */}
         <>
-          {/* <Stopwatch /> */}
+          <Stopwatch />
           <Home />
           <Skills />
           <Projects />
@@ -42,7 +42,7 @@ function App() {
           {/* <Nav2 /> */}
           
         </>
-         } 
+         {/* }  */}
 
     </div >
   )
