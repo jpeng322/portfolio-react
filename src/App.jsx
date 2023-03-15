@@ -33,7 +33,7 @@ function App() {
       {/* <LoadPage /> */}
       {loading ? <LoadCat /> :
         <>
-          {/* <Stopwatch /> */}
+          <Stopwatch />
           <Home />
           <Skills />
           <Projects />
