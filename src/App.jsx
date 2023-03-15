@@ -41,6 +41,7 @@ function App() {
           <Contact />
           <NavbarComp />
           {/* <Nav2 /> */}
+          
         </>
          } 
 
