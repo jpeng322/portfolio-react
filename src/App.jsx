@@ -15,7 +15,7 @@ import Contact from "./pages/Contact";
 import LoadPage from "./pages/Load";
 import Stopwatch from "./Stopwatch";
 import LoadCat from "./LoadCat";
-
+import Stopwatch2 from "./Stopwatch2";
 // import Random from "./components/Random";
 
 function App() {
@@ -31,9 +31,10 @@ function App() {
   return (
     <div className="App">
       {/* <LoadPage /> */}
-      {loading ? <LoadCat/> :
+      {loading ? <Stopwatch2/> :
         <>
-          <Stopwatch />
+
+          <Stopwatch2 />
           <Home />
           <Skills />
           <Projects />
