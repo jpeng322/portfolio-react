@@ -4,7 +4,7 @@
 import { ReactComponent as Svg } from "../../assets/CatSVG.svg";
 import { useEffect } from "react";
 
-const LoadCat = () => {
+export default function LoadCat() {
 
     useEffect(() => {
         // ... javascript goes here 
@@ -20,5 +20,3 @@ const LoadCat = () => {
         </div>
     );
 }
-
-export default LoadCat;
