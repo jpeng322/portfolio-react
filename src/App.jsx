@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       {/* <LoadPage /> */}
-      {loading ? <LoadCat /> :
+      {loading ? <Stopwatch/> :
         <>
           <Stopwatch />
           <Home />
@@ -40,7 +40,8 @@ function App() {
           <Contact />
           <NavbarComp />
           {/* <Nav2 /> */}
-        </>}
+        </>
+         } 
 
     </div >
   )
