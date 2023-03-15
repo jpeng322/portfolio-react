@@ -16,9 +16,9 @@ export default function LoadCat() {
     }, []);
 
     return (
-        <div className="catsvg">
+        // <div className="catsvg">
 
             <Svg />
-        </div>
+        // </div>
     );
 }
