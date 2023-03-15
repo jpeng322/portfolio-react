@@ -13,7 +13,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import LoadPage from "./pages/Load";
-
+import Stopwatch from "./Stopwatch";
 
 // import Random from "./components/Random";
 
@@ -32,6 +32,7 @@ function App() {
       {/* <LoadPage /> */}
       {loading ? <LoadPage /> :
         <>
+          <Stopwatch />
           <Home />
           <Skills />
           <Projects />
