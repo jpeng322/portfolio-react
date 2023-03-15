@@ -1,6 +1,6 @@
 /* eslint-disable */
 import { useEffect } from "react";
-import { ReactComponent as Svg } from './CatSvg.svg';
+import { ReactComponent as Svg } from './CatSVG.svg';
 export default function Stopwatch() {
     useEffect(() => {
         console.log("loadcat")
