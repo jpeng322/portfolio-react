@@ -34,7 +34,7 @@ function App() {
       {loading ? <Stopwatch /> :
         <>
 
-          <Stopwatch2 />
+          {/* <Stopwatch2 /> */}
           <Home />
           <Skills />
           <Projects />
