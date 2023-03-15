@@ -42,6 +42,7 @@ function App() {
           <NavbarComp />
           {/* <Nav2 /> */}
           
+          
         </>
          } 
 
