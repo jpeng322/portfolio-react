@@ -111,7 +111,8 @@ const Contact = () => {
             <Row className='d-flex justify-content-center'>
                 <ContactFormVP />
             </Row>
-            <Stopwatch2 />
+            {/* <Stopwatch2 /> */}
+            <SleepingCatSVG />
         </Container>
     );
 }
