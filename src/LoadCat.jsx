@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 // import { ReactComponent as Svg } from "../../images/CatSVG.svg";
-import { ReactComponent as Svg } from "../../assets/CatSVG.svg";
+import { ReactComponent as Svg } from "./CatSVG.svg";
 import { useEffect } from "react";
 
 export default function LoadCat() {

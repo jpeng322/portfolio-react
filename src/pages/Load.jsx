@@ -1,4 +1,4 @@
-import LoadCat from "../components/HomeComp/LoadCat";
+import LoadCat from "../LoadCat";
 import "../CSS/LoadPage.css"
 const LoadPage = () => {
     return (
