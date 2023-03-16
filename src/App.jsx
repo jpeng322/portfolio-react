@@ -24,7 +24,7 @@ function App() {
     setLoading(true)
     setTimeout(() => {
       // cat.style.display = "none";
-      setLoading(false)
+      setLoading(true)
     }, 3700)
   }, []);
 
@@ -33,8 +33,9 @@ function App() {
       {/* <LoadPage /> */}
 
       {loading ?
-
-        <Stopwatch />
+        <div >
+          <Stopwatch />
+        // </div> 
         :
         <>
           <Stopwatch />
