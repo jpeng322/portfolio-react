@@ -38,7 +38,7 @@ function App() {
 
         :
         <>
-          {/* <Stopwatch /> */}
+          <div className="hidden out"><Stopwatch /></div>
           <Home />
           <Skills />
           <Projects />
