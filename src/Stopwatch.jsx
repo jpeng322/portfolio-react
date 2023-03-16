@@ -15,7 +15,7 @@ export default function Stopwatch() {
         setTimeout(() => {
             // cat.style.display = "none";
             setCatStyle("hidden out")
-        }, 3700)
+        }, 3600)
     }, []);
     return (
         <div className={catStyle}>

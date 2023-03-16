@@ -25,7 +25,7 @@ function App() {
     setTimeout(() => {
       // cat.style.display = "none";
       setLoading(false)
-    }, 3700)
+    }, 3600)
   }, []);
 
   return (
