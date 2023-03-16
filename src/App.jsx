@@ -33,9 +33,9 @@ function App() {
       {/* <LoadPage /> */}
 
       {loading ?
-        <div className="loader">
-          <Stopwatch />
-        </div> :
+
+        <Stopwatch />
+        :
         <>
           <Stopwatch />
           <Home />
