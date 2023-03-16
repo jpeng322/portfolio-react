@@ -23,6 +23,12 @@
   position: absolute;
 }
 
+.loader >*:nth-of-type(1) {
+  border: 1px solid red;
+  /* display: none; */
+  /* visibility: none; */
+  /* height: 0px !important; */
+}
 
 body {
   overflow: overlay;

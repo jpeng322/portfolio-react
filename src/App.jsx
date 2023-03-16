@@ -34,11 +34,11 @@ function App() {
 
       {loading ?
 
-          <Stopwatch />
+          <Stopwatch/>
 
         :
         <>
-          <div className="hidden out"><Stopwatch /></div>
+          <Stopwatch className=""/>
           <Home />
           <Skills />
           <Projects />

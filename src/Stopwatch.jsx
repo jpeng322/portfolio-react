@@ -11,6 +11,8 @@ export default function Stopwatch() {
         console.log("function ran load cat")
     }, []);
     return (
-        <Svg />
+        <div className="loader">
+            <Svg />
+        </div>
     )
 }
