@@ -81,14 +81,14 @@
     background-color: var(--secondary-color);
 }
 
-/* .container-transition .middle {
+.container-transition .middle {
     opacity: 1;
     background-color: var(--secondary-color);
-} */
+}
 
 .text {
     padding: .75rem;
-    font-size: 1rem;
+    font-size: calc(.80rem + .25vw);
     width: 40%;
     border-radius: .25rem;
     text-decoration: none;
@@ -98,7 +98,7 @@
 
 .text-header {
     width: 80%;
-    font-size: calc(1rem + .05vw);
+    font-size: calc(.75rem + .25vw);
 
 }
 
@@ -148,5 +148,5 @@
 
 .text-languages {
     letter-spacing: 1px;
-    font-size: calc(1rem + .02vw)
+    font-size: calc(.75rem + .22vw)
 }
