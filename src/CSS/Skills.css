@@ -98,13 +98,17 @@
 
     .icon-container {
 /* width: clamp(100px, 50%, 125px) */
-min-width: 100px;
+min-width: 110px;
 max-width: 125px;
     }
 
     .icon-row {
         align-items: center;
         justify-content: center;
+    }
+
+    .skills-information > div {
+        padding: 0 2rem !important;
     }
 }
 
