@@ -10,7 +10,7 @@ const FormInput = (props) => {
         <Row >
             <Col>
                 <FloatingLabel controlId={props.controlId} label={props.label}>
-                    <Form.Control type={props.type} placeholder={props.placeholder} name={props.name} />
+                    <Form.Control type={props.type} placeholder={props.placeholder} name={props.name} value={props.value} onChange={props.onChange} />
                 </FloatingLabel>
             </Col>
         </Row>
