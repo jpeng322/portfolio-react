@@ -80,11 +80,11 @@
     opacity: 1;
     background-color: var(--secondary-color);
 }
-
+/* 
 .container-transition .middle {
     opacity: 1;
     background-color: var(--secondary-color);
-}
+} */
 
 .text {
     padding: .75rem;
