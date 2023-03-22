@@ -14,7 +14,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import LoadPage from "./pages/Load";
 import LoadingCat from "./LoadingCat";
-import LoadCat from "./LoadCat";
+
 
 // import Random from "./components/Random";
 
@@ -23,14 +23,13 @@ function App() {
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
-      // cat.style.display = "none";
       setLoading(false)
     }, 3600)
   }, []);
 
   return (
     <div className="App">
-      {/* <LoadPage /> */}
+
 
       {loading ?
 
