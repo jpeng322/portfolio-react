@@ -13,7 +13,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import LoadPage from "./pages/Load";
-import Stopwatch from "./Stopwatch";
+import LoadingCat from "./LoadingCat";
 import LoadCat from "./LoadCat";
 
 // import Random from "./components/Random";
@@ -34,11 +34,11 @@ function App() {
 
       {loading ?
 
-          <Stopwatch/>
+          <LoadingCat/>
 
         :
         <>
-          <Stopwatch className=""/>
+          <LoadingCat className=""/>
           <Home />
           <Skills />
           <Projects />
