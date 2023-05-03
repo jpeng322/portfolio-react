@@ -18,6 +18,7 @@ import emailjs from '@emailjs/browser';
 import FormInput from '../components/ContactComp/FormInput';
 import Media from '../components/Media';
 import SleepingCatSVG from '../components/ContactComp/SleepingCat';
+// import Stopwatch2 from '../Stopwatch2';
 
 import handleViewport from 'react-in-viewport';
 
@@ -150,6 +151,7 @@ const Contact = () => {
             <Row className='d-flex justify-content-center'>
                 <ContactFormVP />
             </Row>
+            {/* <Stopwatch2 /> */}
             <SleepingCatSVG />
         </Container>
     );

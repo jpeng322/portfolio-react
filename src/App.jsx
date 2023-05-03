@@ -29,6 +29,7 @@ function App() {
 
   return (
     <div className="App">
+<<<<<<< HEAD
 
 
       {loading ?
@@ -38,6 +39,13 @@ function App() {
         :
         <>
           <LoadingCat className=""/>
+=======
+      {/* <LoadPage /> */}
+      {loading ? <Stopwatch /> :
+        <>
+
+          {/* <Stopwatch2 /> */}
+>>>>>>> main
           <Home />
           <Skills />
           <Projects />
