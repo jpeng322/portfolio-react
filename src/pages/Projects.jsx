@@ -147,7 +147,7 @@ const Projects = () => {
                   <span> HTML </span>
                 </>
               }
-              website="https://jpeng322.github.io/TKH-Tic-Tac-Toe/"
+              website="https://tic-tac-toe-lyart-rho.vercel.app/"
               github="https://github.com/jpeng322/TKH-Tic-Tac-Toe"
             />
 
@@ -164,7 +164,7 @@ const Projects = () => {
                   <span> HTML </span>
                 </>
               }
-              website="https://jpeng322.github.io/Etch-a-Sketch-Project/"
+              website="https://etch-a-sketch-rose.vercel.app/"
               github="https://github.com/jpeng322/Etch-a-Sketch-Project"
             />
           </Row>
