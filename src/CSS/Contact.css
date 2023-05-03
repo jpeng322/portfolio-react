@@ -165,7 +165,7 @@
 
 
 /* sm breakpoint */
-@media all and (min-width: 500px) {
+@media all and (min-width: 0px) {
     .catsleep {
 
         visibility: hidden;

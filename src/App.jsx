@@ -13,9 +13,9 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import LoadPage from "./pages/Load";
-import Stopwatch from "./Stopwatch";
-import LoadCat from "./LoadCat";
-// import Stopwatch2 from "./Stopwatch2";
+import LoadingCat from "./LoadingCat";
+
+
 // import Random from "./components/Random";
 
 function App() {
@@ -23,26 +23,40 @@ function App() {
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {
-      // cat.style.display = "none";
       setLoading(false)
-    }, 3700)
+    }, 3600)
   }, []);
 
   return (
     <div className="App">
+<<<<<<< HEAD
+
+
+      {loading ?
+
+          <LoadingCat/>
+
+        :
+        <>
+          <LoadingCat className=""/>
+=======
       {/* <LoadPage /> */}
       {loading ? <Stopwatch /> :
         <>
 
           {/* <Stopwatch2 /> */}
+>>>>>>> main
           <Home />
           <Skills />
           <Projects />
           <Contact />
           <NavbarComp />
           {/* <Nav2 /> */}
+
+
+
         </>
-         } 
+      }
 
     </div >
   )

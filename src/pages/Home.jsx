@@ -1,12 +1,9 @@
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
+import { Col, Container, Row } from 'react-bootstrap';
 import "../CSS/Home.css";
-// import ArmSVG from '../components/HomeComp/CatSVG';
 import BodySVG from '../components/HomeComp/BodySVG';
-// import WholeBody from '../components/HomeComp/WholeSVG';
-import Media from '../components/Media';
-import Scrollspy from "react-scrollspy"
+
+
 
 const Home = () => {
     return (
@@ -26,7 +23,8 @@ const Home = () => {
                 <Col className="heading-subtext  text-center" xs={11} md={8} lg={7} xl={5}>A web developer focused on creating dynamic, accessible, and scalable applications.  </Col>
             </Row>
             <Row className='home-row d-flex justify-content-center '>
-                <Col className="heading-button mt-3 text-center p-2" xs={4} md={2}>Contact</Col>
+                <Col className="heading-button mt-3 text-center p-2"  xs={4} md={2}> 
+                <a className="heading-button-link " href="#contact-section">Contact</a> </Col>
             </Row>
             <Row>
                 <Col>

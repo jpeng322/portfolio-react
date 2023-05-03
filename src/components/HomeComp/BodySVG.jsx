@@ -13,7 +13,7 @@ const BodySVG = () => {
     const [counter, setCounter] = useState(0)
 
     useEffect(() => {
-        if (counter < 10) {
+        if (counter < 11) {
             setTimeout(() => {
                 if (normalEyes === "") {
                     setNormalEyes("hidden")
@@ -29,6 +29,7 @@ const BodySVG = () => {
             }, 2000)
         }
         setCounter(prevCounter => prevCounter + 1)
+        console.log(counter)
     }, [normalEyes, smileEyes])
     return (
         <div className="jacky-container animate__animated animate__fadeIn animate__delay-2s">

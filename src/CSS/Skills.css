@@ -6,6 +6,7 @@
     /* color: var(--main-color) */
     color: var(--tertiary-color);
     /* color: var(--secondary-color) */
+    /* z-index: 100; */
 }
 
 .about-description {
@@ -93,28 +94,31 @@
     gap: .5rem ;
 }
 
+@media all and (max-width: 420px) { 
+
+    .icon-container {
+/* width: clamp(100px, 50%, 125px) */
+min-width: 110px;
+max-width: 125px;
+    }
+
+    .icon-row {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills-information > div {
+        padding: 0 2rem !important;
+    }
+}
 
 
-/* .row-icon-container > * {
-    border: 1px solid red;
-} */
 .icon-header,
 .about-description>*,
 .skills-head {
     --animate-delay: .25s;
 }
 
-
-/* .row-icon-container > * {
-    border: 1px solid black;
-}
-
-.icon-header {
-    border: 1px solid red;
-} */
- /* {
-    border: 1px solid red;
-} */
 
 .icon-container:nth-child(1) {
     /* border: 1px solid red; */

@@ -2,14 +2,15 @@
     /* border: 1px solid red; */
     height: 100vh;
     /* z-index: 100; */
-    position: fixed;
+    /* position: fixed; */
     background-color: var(--secondary-color);
-    width: 100%;
+    /* width: 100%; */
     /* height: 100%; */
     /* display: flex;
     flex-direction: column; */
     /* animation: fadeaway 3.6s; */
     /* opacity: .2; */
+    /* z-index: 1; */
 
 }
 
