@@ -55,6 +55,28 @@ const Projects = () => {
         >
           <Row className="project-container-row d-flex justify-content-center ">
             <ProjectImageVP
+              imageSrc="/images/gym_social.PNG"
+              description="A fullstack website that allows users to show off and add pictures of their pets!"
+              textlanguages={
+                <>
+                  <div>
+                    React
+                    <span> • </span>
+                    <span> Express </span>
+                    <span> • </span>
+                    <span> MongoDB </span>
+                  </div>
+                  <div>
+                    <span> Node </span>
+                    <span> • </span>
+                    <span> StyledComponents </span>
+                  </div>
+                </>
+              }
+              website="https://gym-social.onrender.com/"
+              github="https://github.com/meifhuang/Gym-Social"
+            />
+            <ProjectImageVP
               imageSrc="/images/pawpets.PNG"
               description="A fullstack website that allows users to show off and add pictures of their pets!"
               textlanguages={
@@ -64,7 +86,7 @@ const Projects = () => {
                     <span> • </span>
                     <span> Express </span>
                     <span> • </span>
-                    <span> PlanetScale </span>
+                    <span> PlanetScale - MySQL </span>
                   </div>
                   <div>
                     <span> Node </span>
@@ -122,7 +144,7 @@ const Projects = () => {
                             pokemon."
               textlanguages={
                 <>
-                  JS
+                  Javascript
                   <span> • </span>
                   <span> CSS </span>
                   <span> • </span>
@@ -140,7 +162,7 @@ const Projects = () => {
                             indicators."
               textlanguages={
                 <>
-                  JS
+                  Javascript
                   <span> • </span>
                   <span> CSS </span>
                   <span> • </span>
@@ -157,7 +179,7 @@ const Projects = () => {
               description="An online rendition of the Etch A Sketch drawing toy with rainbow, erasure, and color selection modes."
               textlanguages={
                 <>
-                  JS
+                  Javascript
                   <span> • </span>
                   <span> CSS </span>
                   <span> • </span>
