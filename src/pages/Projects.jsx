@@ -55,30 +55,57 @@ const Projects = () => {
         >
           <Row className="project-container-row d-flex justify-content-center ">
             <ProjectImageVP
-              imageSrc="/images/gym_social.PNG"
-              description="A fullstack website that allows users to show off and add pictures of their pets!"
+              imageSrc="/images/booked.PNG"
+              description="A full-stack website that allows clients to book services from registered providers."
               textlanguages={
                 <>
                   <div>
                     React
                     <span> • </span>
-                    <span> Express </span>
+                    <span> StyledComponents </span>
                     <span> • </span>
-                    <span> MongoDB </span>
+                    <span> Express </span>
                   </div>
                   <div>
                     <span> Node </span>
                     <span> • </span>
+                    <span> PlanetScale </span>
+                    <span> • </span>
+                    <span> Prisma MySQL </span>
+                  </div>
+                </>
+              }
+              website="https://booked-oxh9.onrender.com/"
+              github="https://github.com/jpeng322/Booked"
+            />
+            <ProjectImageVP
+              imageSrc="/images/gym_social.PNG"
+              description="A full-stack website that allows users to track and show off their gym progress!"
+              textlanguages={
+                <>
+                  <div>
+                    React
+                    <span> • </span>
                     <span> StyledComponents </span>
+                    <span> • </span>
+                    <span> Express </span>
+                  </div>
+                  <div>
+                    <span> Node </span>
+                    <span> • </span>
+                    <span> Cloudinary </span>
+                    <span> • </span>
+                    <span> MongoDB </span>
+                    
                   </div>
                 </>
               }
               website="https://gym-social.onrender.com/"
-              github="https://github.com/meifhuang/Gym-Social"
+              github="https://github.com/jpeng322/Gym-Social/tree/main"
             />
             <ProjectImageVP
               imageSrc="/images/pawpets.PNG"
-              description="A fullstack website that allows users to show off and add pictures of their pets!"
+              description="A full-stack website that allows users to show off and add pictures of their pets!"
               textlanguages={
                 <>
                   <div>
