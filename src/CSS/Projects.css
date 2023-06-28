@@ -37,10 +37,11 @@
     /* width: 50%; */
     border-radius: 1rem;
     /* border: 1px solid black; */
-    min-height: 250px;
+    height: 300px;
     --animate-delay: .25s;
     /* color:white */
     color: var(--tertiary-color);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
 }
 
 
@@ -64,7 +65,7 @@
     align-items: center;
     gap: 1rem;
     letter-spacing: 1px;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .container-transition:hover {
