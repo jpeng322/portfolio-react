@@ -28,16 +28,6 @@ const SkillsExpText = (props) => {
       ? "animate__animated animate__fadeIn animate__delay-1s"
       : "";
 
-  const [allValues, setAllValues] = useState({
-    journey: "",
-    tkh: "",
-    email: "",
-    password: "",
-    confirmPassword: "",
-  });
-  const changeHandler = (e) => {
-    setAllValues({ ...allValues, [e.target.name]: e.target.value });
-  };
 
   const [journey, setJourney] = useState("");
   const [tkh, setTkh] = useState("");
@@ -70,7 +60,6 @@ const SkillsExpText = (props) => {
     return () => window.removeEventListener("scroll", colorChange);
   }, []);
 
-  console.log(allValues);
 
   return (
     <Col ref={forwardedRef} className={animations} xs={12}>

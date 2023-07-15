@@ -100,6 +100,7 @@
   /* border: 1px solid #ced4da */
   transition: 0.2s ease-in-out;
   /* box-shadow: 0 10px 30px -15px; */
+  width: 160px;
 }
 
 .contact-section form button:hover {
@@ -156,7 +157,59 @@
   position: absolute;
   width: 40vw;
 }
+.spinner-border {
+  /* background-color: red; */
+  /* border: 1px solid red; */
+  width: 1rem;
+  height: 1rem;
+}
 
+.load-text {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  gap: .75rem;
+  justify-content: center;
+  align-items: center;
+}
+ .load-text .loader,
+ .load-text .loader {
+  position: relative;
+  background: conic-gradient(transparent, var(--tertiary-color));
+  height: .8rem;
+  width: .8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: rotation .75s linear infinite;
+  /* border: 1px solid red; */
+}
+ .load-text .loader::before,
+ .load-text .loader::before {
+  content: " ";
+  position: absolute;
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  background-color: var(--dark-pop-color);
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.error-message {
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+    transform: translate(-50%, 0);
+  width: 200%;
+  text-align: center;
+}
 /* sm breakpoint */
 @media all and (min-width: 0px) {
   .catsleep {
