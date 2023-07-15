@@ -54,6 +54,30 @@ const Projects = () => {
           xxl={12}
         >
           <Row className="project-container-row d-flex justify-content-center ">
+          <ProjectImageVP
+              imageSrc="/images/bloomin.png"
+              description="Minimal viable product created during 3-day Bloomberg hackathon that promotes environmentally sustainable actions."
+              textlanguages={
+                <>
+                  <div>
+                    React
+                    <span> • </span>
+                    <span> TailwindCSS </span>
+                    <span> • </span>
+                    <span> Express </span>
+                  </div>
+                  <div>
+                    <span> Node </span>
+                    <span> • </span>
+                    <span> PlanetScale </span>
+                    <span> • </span>
+                    <span> Prisma MySQL </span>
+                  </div>
+                </>
+              }
+              website="https://tkh-hackathon.vercel.app/"
+              github="https://github.com/jpeng322/tkh-hackathon"
+            />
             <ProjectImageVP
               imageSrc="/images/booked.PNG"
               description="A full-stack website that allows clients to book services from registered providers."
