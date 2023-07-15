@@ -29,7 +29,6 @@ const BodySVG = () => {
             }, 2000)
         }
         setCounter(prevCounter => prevCounter + 1)
-        console.log(counter)
     }, [normalEyes, smileEyes])
     return (
         <div className="jacky-container animate__animated animate__fadeIn animate__delay-2s">

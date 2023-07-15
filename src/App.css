@@ -45,3 +45,15 @@ body {
   border-radius: 100vw;
   margin-block: .1rem;
 }
+
+.circle {
+  height: 2px;
+  width: 2px;
+  border-radius: 50px;
+  background-color: black;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999; /* so that it stays on top of all other elements */
+}

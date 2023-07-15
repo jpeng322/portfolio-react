@@ -47,10 +47,6 @@ function NavbarComp() {
                 setLastScroll(currentScroll)
             }
         }
-
-
-
-
     }
 
     const [isOpen, setOpen] = useState(false)
