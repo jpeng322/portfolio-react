@@ -54,7 +54,7 @@ const Projects = () => {
           xxl={12}
         >
           <Row className="project-container-row d-flex justify-content-center ">
-          <ProjectImageVP
+            <ProjectImageVP
               imageSrc="/images/bloomin.png"
               description="Minimal viable product created during 3-day Bloomberg hackathon that promotes environmentally sustainable actions."
               textlanguages={
@@ -120,7 +120,6 @@ const Projects = () => {
                     <span> Cloudinary </span>
                     <span> • </span>
                     <span> MongoDB </span>
-                    
                   </div>
                 </>
               }
