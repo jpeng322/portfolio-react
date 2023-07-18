@@ -27,8 +27,8 @@ const ContactForm = (props) => {
   const [isLoading, setIsLoading] = useState(false);
 
   const [allValues, setAllValues] = useState({
-    firstName: "asd",
-    lastName: "dasd",
+    firstName: "",
+    lastName: "",
     email: "",
     subject: "",
     message: "",
