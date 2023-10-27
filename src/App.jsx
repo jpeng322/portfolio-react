@@ -20,13 +20,13 @@ import LoadingCat from "./LoadingCat";
 function App() {
   const [loading, setLoading] = useState(false);
   const [currentScroll, setCurrentScroll] = useState(0)
-  // useEffect(() => {
-  //   setLoading(true);
-  //   setTimeout(() => {
-  //     setLoading(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
 
-  //   }, 3600);
-  // }, []);
+    }, 3600);
+  }, []);
 
 
 

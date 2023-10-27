@@ -70,16 +70,22 @@
   background-color: var(--secondary-color);
   box-shadow: 1px 1px 3px;
   border-radius: 0.5rem;
-  width: 100px;
+  width: 120px;
   height: 100px;
-  padding: 1rem;
+  /* min-width: 100px; */
+  /* max-width: 100px; */
+  /* padding: 1rem; */
   letter-spacing: 1px;
   font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .icon-container svg {
   height: 50px;
-  width: 50px;
+  width: 100px;
   fill: var(--tertiary-color);
 }
 
@@ -120,6 +126,11 @@
         width: 100%;
     }
 } */
+.bold-text {
+  font-weight: bold;
+  /* transition: font-weight 3s ease !important; */
+  transition-duration: 3s !important ;
+}
 
 @media all and (max-width: 420px) {
   .icon-container {

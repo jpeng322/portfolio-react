@@ -26,7 +26,6 @@ const SkillsHeaderContainer = (props) => {
   //     setAllValues({...allValues, journey: "bold"})
   // }
 
-
   return (
     <Row
       ref={forwardedRef}
@@ -38,12 +37,17 @@ const SkillsHeaderContainer = (props) => {
       <Col
         className="skills-subtext text-center pt-0 p-4"
         xs={12}
-        md={9}
-        lg={7}
-        xl={6}
-        xxl={5}
-          >
-              My journey began a little over a year ago, after being recommended to coding by a high school friend and finding enjoyment in the challenges that the web dvelopment field presented. After self teaching for a month, I knew coding was what I wanted to pursue. I try to find something new to learn every day, and when I am not on the computer, I enjoy playing basketball, cooking, and going on walks to see the neighborhood cats.
+        md={10}
+        lg={8}
+        xl={8}
+        xxl={7}
+      >
+        My journey began a little over a year ago, after being recommended to
+        coding by a high school friend and finding enjoyment in the challenges
+        that the web development field presented. After self-teaching for a
+        month, I knew coding was what I wanted to pursue. I find something new
+        to learn every day, and when I am not on the computer, I enjoy playing
+        basketball, cooking, and going on walks to see the neighborhood cats.
       </Col>
     </Row>
   );
@@ -56,15 +60,17 @@ const Skills = ({ scrollPosition }) => {
     <Container
       fluid
       id="skills-section"
-      className="skills-section d-flex flex-column justify-content-center pt-5 pb-5 pt-xl-0 pb-xl-0"
+      className="skills-section d-flex flex-column justify-content-center pt-5 pb-0 pb-md-3 pb-xl-5 pt-xl-0 pb-xl-0"
     >
       <SkillsHeaderContainerVP scrollPosition={scrollPosition} />
       <Row className="skills-information d-flex justify-content-center">
         <Col
-          className=" justify-content-center d-flex flex-column flex-xl-row align-items-center ps-5 pe-5 pb-5 pe-md-0 ps-md-0 pb-md-0 gap-5 gap-xl-4 gap-xxl-0"
+          className=" justify-content-center d-flex flex-column flex-xl-row align-items-center ps-5 pe-5 pb-5 pe-md-0 ps-md-0 pb-md-0 gap-5 gap-xl-5"
+          sm={11}
           md={9}
+          xxl={9}
         >
-          <SkillsExpVP scrollPosition={scrollPosition}/>
+          <SkillsExpVP scrollPosition={scrollPosition} />
           <Col
             className=" icons d-flex flex-column justify-content-center align-items-center p-0"
             xs={12}
@@ -81,9 +87,9 @@ const Skills = ({ scrollPosition }) => {
               lg={10}
               xxl={8}
             >
-              <FirstRowIcons  />
-              <SecondRowIcons  />
-              <ThirdRowIcons  />
+              <FirstRowIcons />
+              <SecondRowIcons />
+              <ThirdRowIcons />
             </Col>
           </Col>
         </Col>
