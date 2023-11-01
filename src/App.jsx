@@ -14,6 +14,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import LoadPage from "./pages/Load";
 import LoadingCat from "./LoadingCat";
+import Internships from "./pages/Internships";
 
 // import Random from "./components/Random";
 
@@ -52,7 +53,8 @@ function App() {
           {/* <LoadingCat className="" /> */}
           <Home />
             <Skills scrollPosition={scrollPosition} />
-          <Projects />
+            <Internships />
+            <Projects />
           <Contact />
           <NavbarComp />
           {/* <Nav2 /> */}

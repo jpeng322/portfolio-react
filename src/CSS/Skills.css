@@ -1,12 +1,6 @@
 .skills-section {
-  /* background: #e4e1e1; */
   min-height: 100vh;
-  /* background-color: var(--secondary-color); */
-  /* background-color: var(--tertiary-color); */
-  /* color: var(--main-color) */
   color: var(--tertiary-color);
-  /* color: var(--secondary-color) */
-  /* z-index: 100; */
 }
 
 .about-description {

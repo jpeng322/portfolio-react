@@ -15,7 +15,7 @@ import "../CSS/Skills.css";
 import handleViewport from "react-in-viewport";
 
 const SkillsHeaderContainer = (props) => {
-  const { inViewport, enterCount, forwardedRef, scrollPosition } = props;
+  const { inViewport, enterCount, forwardedRef} = props;
 
   const animations =
     inViewport && enterCount === 1

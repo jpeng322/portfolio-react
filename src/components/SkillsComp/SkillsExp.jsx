@@ -38,7 +38,6 @@ const SkillsExpText = (props) => {
   const [style, setStyle] = useState(false);
   useEffect(() => {
     const colorChange = () => {
-      console.log(window.scrollY);
       if (window.scrollY >= 700) {
         // setAllValues({ ...allValues, journey: "bold" });
         setJourney("bold");

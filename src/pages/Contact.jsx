@@ -94,7 +94,6 @@ const ContactForm = (props) => {
     }
   };
 
-  console.log(message);
   const { inViewport, enterCount, forwardedRef } = props;
 
   const animations =
