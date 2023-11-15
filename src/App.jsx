@@ -20,11 +20,26 @@ import Internships from "./pages/Internships";
 
 function App() {
   const [loading, setLoading] = useState(false);
+
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 3600);
+  }, []);
+
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+  // console.log(scrollPosition)
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
   }, []);
 
   return (
@@ -36,7 +51,7 @@ function App() {
         <>
           <LoadingCat className="" />
           <Home />
-          <Skills />
+          <Skills scrollPosition={scrollPosition} />
           <Internships />
           <Projects />
           <Contact />
