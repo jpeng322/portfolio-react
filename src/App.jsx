@@ -48,18 +48,18 @@ function App() {
     <div className="App">
       {loading ? (
         <LoadingCat />
-      ) : (
-        <>
-          {/* <LoadingCat className="" /> */}
+     ) : ( 
+      <>
+
           <Home />
             <Skills scrollPosition={scrollPosition} />
             <Internships />
             <Projects />
           <Contact />
           <NavbarComp />
-          {/* <Nav2 /> */}
+    
         </>
-      )}
+      )} 
 
       
     </div>
