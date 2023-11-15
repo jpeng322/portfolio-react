@@ -55,8 +55,80 @@ const Projects = () => {
         >
           <Row className="project-container-row d-flex justify-content-center ">
             <ProjectImageVP
+              imageSrc="/images/bloomin.png"
+              description="Minimal viable product created during 3-day Bloomberg hackathon that promotes environmentally sustainable actions."
+              textlanguages={
+                <>
+                  <div>
+                    React
+                    <span> • </span>
+                    <span> TailwindCSS </span>
+                    <span> • </span>
+                    <span> Express </span>
+                  </div>
+                  <div>
+                    <span> Node </span>
+                    <span> • </span>
+                    <span> PlanetScale </span>
+                    <span> • </span>
+                    <span> Prisma MySQL </span>
+                  </div>
+                </>
+              }
+              website="https://tkh-hackathon.vercel.app/"
+              github="https://github.com/jpeng322/tkh-hackathon"
+            />
+            <ProjectImageVP
+              imageSrc="/images/booked.PNG"
+              description="A full-stack website that allows clients to book services from registered providers."
+              textlanguages={
+                <>
+                  <div>
+                    React
+                    <span> • </span>
+                    <span> StyledComponents </span>
+                    <span> • </span>
+                    <span> Express </span>
+                  </div>
+                  <div>
+                    <span> Node </span>
+                    <span> • </span>
+                    <span> PlanetScale </span>
+                    <span> • </span>
+                    <span> Prisma MySQL </span>
+                  </div>
+                </>
+              }
+              website="https://booked-oxh9.onrender.com/"
+              github="https://github.com/jpeng322/Booked"
+            />
+            <ProjectImageVP
+              imageSrc="/images/gym_social.PNG"
+              description="A full-stack website that allows users to track and show off their gym progress!"
+              textlanguages={
+                <>
+                  <div>
+                    React
+                    <span> • </span>
+                    <span> StyledComponents </span>
+                    <span> • </span>
+                    <span> Express </span>
+                  </div>
+                  <div>
+                    <span> Node </span>
+                    <span> • </span>
+                    <span> Cloudinary </span>
+                    <span> • </span>
+                    <span> MongoDB </span>
+                  </div>
+                </>
+              }
+              website="https://gym-social.onrender.com/"
+              github="https://github.com/jpeng322/Gym-Social/tree/main"
+            />
+            <ProjectImageVP
               imageSrc="/images/pawpets.PNG"
-              description="A fullstack website that allows users to show off and add pictures of their pets!"
+              description="A full-stack website that allows users to show off and add pictures of their pets!"
               textlanguages={
                 <>
                   <div>
@@ -64,7 +136,7 @@ const Projects = () => {
                     <span> • </span>
                     <span> Express </span>
                     <span> • </span>
-                    <span> PlanetScale </span>
+                    <span> PlanetScale - MySQL </span>
                   </div>
                   <div>
                     <span> Node </span>
@@ -122,7 +194,7 @@ const Projects = () => {
                             pokemon."
               textlanguages={
                 <>
-                  JS
+                  Javascript
                   <span> • </span>
                   <span> CSS </span>
                   <span> • </span>
@@ -140,7 +212,7 @@ const Projects = () => {
                             indicators."
               textlanguages={
                 <>
-                  JS
+                  Javascript
                   <span> • </span>
                   <span> CSS </span>
                   <span> • </span>
@@ -157,7 +229,7 @@ const Projects = () => {
               description="An online rendition of the Etch A Sketch drawing toy with rainbow, erasure, and color selection modes."
               textlanguages={
                 <>
-                  JS
+                  Javascript
                   <span> • </span>
                   <span> CSS </span>
                   <span> • </span>
