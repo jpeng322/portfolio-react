@@ -1,0 +1,52 @@
+.internships-section {
+  color: var(--tertiary-color);
+}
+
+.internships-header {
+  font-size: calc(2.5rem + 0.5vw);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: var(--pop-color);
+}
+
+.internships-section img {
+  width: 100%;
+  /* height: 300px */
+}
+
+.internship-image-container {
+  /* border: 1px solid red; */
+  height: 300px;
+  /* height: 100%;  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  overflow: hidden;
+  /* padding: 1rem; */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#ktn-logo {
+  padding: 2rem;
+}
+
+/* .internship-image-container:hover {
+    background-color: var(--dark-pop-color);
+    color: var(--tertiary-color);
+    cursor: pointer;
+    transform: translateY(-1px) !important;
+    box-shadow: 1px 1px 10px 1px;
+  } */
+
+.internship-image-container:hover {
+  /* background-color: var(--dark-pop-color); */
+  /* color: var(--tertiary-color); */
+  cursor: pointer;
+  transform: translateY(-1px) !important;
+  box-shadow: 0px 8px 18px var(--dark-pop-color);
+  /* box-shadow:  5px 5px 20px var(--dark-pop-color); */
+}

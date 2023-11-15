@@ -1,57 +1,51 @@
-import "./App.css"
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'animate.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "animate.css";
 
-import Scrollspy from "react-scrollspy"
+import Scrollspy from "react-scrollspy";
 
 import { useState, useEffect } from "react";
 
 //components
-import NavbarComp from './components/Navbar';
-import Home from './pages/Home';
+import NavbarComp from "./components/Navbar";
+import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import LoadPage from "./pages/Load";
 import LoadingCat from "./LoadingCat";
-
+import Internships from "./pages/Internships";
 
 // import Random from "./components/Random";
 
 function App() {
-  const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false);
   useEffect(() => {
-    setLoading(true)
+    setLoading(true);
     setTimeout(() => {
-      setLoading(false)
-    }, 3600)
+      setLoading(false);
+    }, 3600);
   }, []);
 
   return (
     <div className="App">
-
-{/* s */}
-      {loading ?
-
-          <LoadingCat/>
-
-        :
+      {/* s */}
+      {loading ? (
+        <LoadingCat />
+      ) : (
         <>
-          <LoadingCat className=""/>
+          <LoadingCat className="" />
           <Home />
           <Skills />
+          <Internships />
           <Projects />
           <Contact />
           <NavbarComp />
           {/* <Nav2 /> */}
-
-
-
         </>
-      }
-
-    </div >
-  )
+      )}
+    </div>
+  );
 }
 
-export default App
+export default App;
